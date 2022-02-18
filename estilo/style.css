@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gus1{
+    background: rgba(0, 0, 0, 0.686);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.gus{
+    background: white;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    text-align: center;
+}
+.gus li{
+    text-align: left;
+}
+
+.gus a{
+    text-decoration: none;
+    background: rgb(29, 29, 112);
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#feche{
+    background: red;
+}
+
+@media(max-width: 600px){
+    .gus{
+        margin: 15px;
+        margin-top: 20%;
+    }
+}
