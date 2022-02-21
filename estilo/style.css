@@ -35,6 +35,9 @@ body{
 #feche{
     background: red;
 }
+#pront{
+    color: blue;
+}
 
 @media(max-width: 600px){
     .gus{
