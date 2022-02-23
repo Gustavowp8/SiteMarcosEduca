@@ -38,10 +38,15 @@ body{
 #pront{
     color: blue;
 }
+#pront2{
+    color: red;
+}
 
 @media(max-width: 600px){
+    .gus1{
+        overflow: auto;
+    }
     .gus{
         margin: 15px;
-        margin-top: 20%;
     }
 }
