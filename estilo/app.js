@@ -1,3 +1,4 @@
 function fechar(){
-    gus1.style.display="none"
+    alert('Ação não permitida no momento aguardando push!')
+    //gus1.style.display="none"
 }
