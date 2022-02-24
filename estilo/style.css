@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: #CDCDD4;
+    /*background: #CDCDD4;*/
+    background: #ffff;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -45,6 +46,92 @@ body{
 }
 .part2 ul{
     display: flex;
+}
+
+.capa{
+    background-image: url(../arquivos/imagens/pexels-gradienta-6985193.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#busca{
+    position: absolute;
+    margin: 10px;
+    margin-top: 70px;
+    margin-left: 60px;
+    padding: 8px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.flex{
+   /* background: saddlebrown;*/
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+}
+
+.flex > div{
+    flex: 1 0 200px;
+   /* background: red;*/
+    margin: 5px;
+    text-align: center;
+}
+.flex p{
+    font-size: 10pt;
+}
+
+.Ttitulo{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background: white;
+}
+
+#gratis2{
+    background: #8e72dc;
+    color: #ffffff;
+    width: 230px;
+    padding: 10px;
+    /*height: 34px;*/
+    left: 1175px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.meio{
+    display: flex;
+    flex-wrap: wrap;
+    background: saddlebrown;
+}
+
+.meio > div{
+    flex: 1 0 150px;
+    background: rebeccapurple;
+    margin: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+footer{
+    background: #3F4A52;
+    color: white;
+    padding: 10px;
 }
 
 .gus1{
