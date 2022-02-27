@@ -9,112 +9,125 @@
     <title>Qlegis</title>
 </head>
 <body>
-    
-    <header class="header">
-        <div class="part01" id="nav">
-            <img src="arquivos/imagens/logoSemFundo.png" alt="">
-            <ul id="menu">
+
+    <header id="header" class="header">
+        <a href="#"><img src="arquivos/imagens/logoSemFundo.png" alt=""></a>
+
+        <nav id="nav">
+
+            <button id="btn-mobile">Menu
+                <span id="hamburger"></span>
+            </button>
+
+            <ul id="menu" class="menu">
                 <li><a href="#" onclick="aviso()">QUESTÕES</a></li>
                 <li><a href="#" onclick="aviso()">SIMULADOS</a></li>
                 <li><a href="#" onclick="aviso()">RESUMAPAS</a></li>
                 <li><a href="#" onclick="aviso()">GUIAS</a></li>
                 <li><a href="#" onclick="aviso()">PLANOS</a></li>
                 <li><a href="#" onclick="aviso()">GRUPOS</a></li>
-            </ul>
-        </div>
-
-        <div class="part02" id="nav">
-            <ul id="menu">
-                <li><a href="#" onclick="aviso()">ENTRAR</a></li>
+                <li><a href="#" id="sant" onclick="aviso()">ENTRAR</a></li>
                 <li><a href="#" id="gratis" onclick="aviso()">EXPERIMENTA GRÁTIS</a></li>
             </ul>
-        </div>
 
-        <button class="btn-mobile" id="btn-mobile">Opções</button>
+        </nav>
+
     </header>
 
     <div class="capa">
-
         <h1>Aqui vai uma imagem</h1>
 
-        <input class="text1" type="text">
-
+        <input type="text" name="pesquisa" id="pesquisa">
     </div>
 
     <section class="flex">
 
         <div>
-            <h2>+40.000</h2>
+            <h4>+40.000</h4>
             <p>Questões de Enfermagem</p>
         </div>
 
         <div>
-            <h2>+40.000</h2>
+            <h4>+40.000</h4>
             <p>Comentários dos professores</p>
         </div>
 
         <div>
-            <h2>+40.000</h2>
+            <h4>+40.000</h4>
             <p>Mapas mentais de Enfermagem</p>
         </div>
 
         <div>
-            <h2>+40.000</h2>
+            <h4>+40.000</h4>
             <p>Questões inéditas</p>
         </div>
 
         <div>
-            
+            <h4>+40.000</h4>
+            <p>Simulados inéditos</p>
         </div>
 
-        <a href="#" id="gratis22" onclick="aviso()">EXPERIMENTA GRÁTIS</a>
+        <div>
+            <a href="#" id="santos01" onclick="aviso()">EU QUERO MUDAR DE VIDA</a>
+            </div>
 
     </section>
 
-    <h2 class="titulo02">Por que usar a plataforma Qquestao?</h2>
-
+    <h2 class="Ttitulo">Por que usar a plataforma Qquestao?</h2>
+    
     <section class="gus">
 
         <div>
-            <h3><strong>Acompanhe seu desempenho</strong></h3>
-            <p>Saiba os seus pontos fortes e fracos.</p>
-        </div>
-
-        <div>
-            <h3><strong>Saiba os assuntos mais cobrados</strong></h3>
-            <p> Saiba o que é
-                mais cobrado e controle <br>
-                seus estudos.</p>
-        </div>
-
-        <div>
-            <h3><strong>Simulados</strong></h3>
-            <p>Treine com os melhores simulados<br> inéditos ou crie seu próprio simulado.<br> Participe do ranking.</p>
-        </div>
-
-        <div>
-            <h3><strong>Resumapas</strong></h3>
             <p>
-                Materiais preparados para <br>
-                economizar o seu tempo e <br>
-                potencializar seu estudo. <br>
+                <strong>Acompanhe seu desempenho</strong><br>
+                Saiba os seus pontos fortes e fracos.
             </p>
         </div>
 
         <div>
-            <h3><strong>Guias de estudo</strong></h3>
             <p>
-                Questões organizadas <br>
-                conforme os editais <br>
-                publicados. Acesse e Estude.
+                <strong>Saiba os assuntos mais cobrados</strong> <br>
+                Saiba o que é
+                mais cobrado e controle <br>
+                seus estudos.
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <strong>Simulados</strong><br>
+                Treine com os melhores simulados <br>
+                inéditos ou crie seu próprio simulado. <br>
+                Participe do ranking.
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <strong>Resumapas</strong> <br>
+                Materiais preparados para <br>
+                economizar o seu tempo e <br>
+                potencializar seu estudo.
+                            </p>
+        </div>
+
+        <div>
+            <p>
+                <strong>Guias de estudo</strong><br>
+            Questões organizadas <br>
+            conforme os editais <br>
+            publicados. Acesse e Estude.
             </p>
         </div>
 
     </section>
 
-    <div class="conte">
+    <div class="EmBranco">
 
     </div>
+
+
+    <!-- Remover esta parte -->
 
     <div class="fer" id="fer">
         <div class="fer1">
@@ -128,32 +141,66 @@
 
             <h4>Versão mobile ainda não foi implementada </h4>
             <h4>Ainda não é possível acessar outras páginas</h4>
-            <h4>Corrigindo outros 122 erros...</h4>
+            <h4>Corrigindo outros 115 erros...</h4>
 
             <div class="inf" onclick="sobre()"> DASHBOARD </div>
             <div class="inf" onclick="fecha()"> SITE USUARIO </div>
             <div class="inf" onclick="falecom()"> Falar com o Programador </div>
             
             <p>Versão 1.0.0</p>
-            <p>Concluido: 005%</p>
+            <p>Concluido: 007%</p>
         </div>
     </div>
 
+    <!-- Remover esta parte -->
+
     <footer class="footer">
-        <div>
-            <p id="tituloFooter">Qquestao&copy; 2021</p>
 
-            <p onclick="aviso()">Sobre o Qquestao.com</p>
-            <p onclick="aviso()">Termos de uso</p>
-            <p onclick="aviso()">Dúvidas frequentes</p>
-            <p onclick="aviso()">Planos</p>
-            <p onclick="aviso()">Ajuda</p>
+        <div class="primeiro">
+            <p>
+                <img src="arquivos/imagens/image_2022-02-27_17-21-57.png" width="150px">
+            </p>
+
+            <p>
+                Sobre o Qquestao.com
+            </p>
+
+            <p>
+                Termos de uso
+            </p>
+
+            <p>
+                Dúvidas frequentes
+            </p>
+
+            <p>
+                Planos
+            </p>
+
+            <p>
+                Ajuda
+            </p>
+
+            <p id="affst">
+                Ajuda
+            </p>
+
+            <div class="grupo1">
+                <img id="pago" src="arquivos/imagens/Rectangle 24.png" alt="">
+
+                <p id="affst2">
+                    Ajuda
+                </p>
+
+            <p id="anima1"><strong>Fale conocsco</strong><br>
+                <img src="arquivos/imagens/email.jpg">
+                <img src="arquivos/imagens/whastapp.jpg">
+                <img src="arquivos/imagens/facebook.jpg">
+                <img src="arquivos/imagens/insta.jpg">
+            </p>
+            </div>
         </div>
 
-        <div>
-            <img src="arquivos/imagens/Rectangle 24.png" onclick="aviso()">
-            <p id="fale" onclick="aviso()">Fale conosco</p>
-        </div>
     </footer>
 
     <script src="estilo/app.js"></script>

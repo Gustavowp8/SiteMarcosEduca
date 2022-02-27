@@ -1,229 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    background: white;
+body, ul{
+    padding: 0px;
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.header a{
-    text-decoration: none;
-    margin-left: 10px;
-    color: #3F4A52;
-    padding: 10px;
-}
-.header a:hover{
-    background: rgba(0, 0, 0, 0.248);
-}
-.header ul, li{
-    list-style: none;
-}
 .header img{
     width: 150px;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+a:hover{
+    background: rgba(0, 0, 0, 0.303);
+}
+
 .header{
     background: white;
-    border-top: 5px solid #8E72DC;
     display: flex;
-    justify-content: space-between;
-    
-
-    font-family: 'Open Sans', sans-serif;
-    padding: 5px;
-}
-.part01{
-    display: flex;
-}
-.part01 ul{
-    display: flex;
-    justify-content: space-between;
-}
-.part02 ul{
-    display: flex;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    align-items: center;
     justify-content: space-around;
+
+    border-top: 5px solid #8E72DC;
+}
+.menu{
+    
+    display: flex;
+    list-style: none;
+    gap: .5rem;
 }
 
+.menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#sant{
+    margin-right: 30px;
+    margin-left: 360px;
+}
 #gratis{
     background: #8E72DC;
-    color: white;
     border-radius: 2px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 5px;
+    color: white;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.btn-mobile{
+#btn-mobile{
     display: none;
 }
 
-/*capa*/
+/*Fim menu*/
 
 .capa{
-    background: rgb(201, 193, 193);
-    padding: 10px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    background: #C4C4C4;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-.text1{
+#pesquisa{
     position: absolute;
+    top: 461px;
+    margin-left: 113px;
+    padding: 20px;
+    padding-left: 200px;
+
     border-radius: 30px;
     border: none;
-    margin-top: 60px;
-    margin-left: 80px;
-    padding: 15px;
-    padding-left: 100px;
 }
-
-/*capa*/
 
 .flex{
-   /* background: saddlebrown;*/
+    /*background: saddlebrown;*/
     display: flex;
     flex-wrap: wrap;
+
     border-bottom: 1px solid #DBDBDB;
 }
-
 .flex > div{
-   /* background: salmon;*/
+    /*background: salmon;*/
     flex: 1 0 200px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    font-style: normal;
 }
 
-.flex > div h2{
-    font-family: 'Open Sans';
-    font-weight: normal;
+.flex > div h4{
+    font-style: normal;
+    font-weight: normal, bolder;
     font-size: 30px;
+    line-height: 41px;
+    /*background: red;*/
 }
 .flex > div p{
-    font-family: 'Open Sans';
-    font-weight: normal;
-    font-size: 14px;
-}
-
-#gratis22{
-    position: absolute;
-    background: #8E72DC;
-    color: white;
-    font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
+    font-weight: normal, bolder;
     font-size: 14px;
     line-height: 19px;
-
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 2px;
-    padding-left: 40px;
-    padding-right: 40px;
-
-    margin-top: 50px;
-    margin-left: 1200px;
+    margin-top: -10px;
+    /*background: darkcyan;*/
 }
 
-.titulo02{
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+#santos01{
+    position: absolute;
+    background: #8E72DC;
+    border-radius: 2px;
+    color: white;
+    right: 0px;
+    width: 230px;
+    padding: 10px;
+    left: 1190px;
+    top: 615px;
+}
 
+.Ttitulo{
     text-align: center;
+    /*font-family: Open Sans;*/
+    font-style: normal;
+    font-weight: normal, bolder;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 100px;
 }
 
 .gus{
-   /* background: salmon;*/
     display: flex;
     flex-wrap: wrap;
-    padding-left: 85px;
+    padding: 10px;
 }
 .gus > div{
-    /*background: seagreen;*/
-    flex: 1 0 120px;
-    margin: 15px;
-}
-
-.gus > div h3{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
+    flex: 1 0 150px;
+    margin: 25px;
 }
 
 .gus > div p{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 19px;
-}
-
-.conte{
-    padding-top: 300px;
-    padding-bottom: 300px;
+    /*line-height: 19px;*/
 }
 
 .footer{
     background: #3F4A52;
-    display: flex;
-    justify-content: space-around;
+    padding: 20px;
     color: white;
-    padding: 30px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 20px;
 }
-
 .footer > div{
     display: flex;
-    justify-content: space-around;
-
-    /*border-bottom: 1px solid #E5E5E5;*/
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer img{
+.primeiro{
+    margin-right: 40px;
+    margin-left: 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.primeiro p{
     display: block;
+    padding: .5rem;
+}
+
+#affst{
+    margin-right: 45px;
+    color: rgba(255, 0, 0, 0);
+}
+
+#affst2{
+    margin-right: 45px;
+    color: rgba(255, 0, 0, 0);
+}
+
+#anima1 img{
+width: 23px;
+
+transition: all 0.5s;
+cursor: pointer;
+}
+#anima1 img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.grupo1{
+    display: flex;
+}
+#pago{
     width: auto;
-    margin: 15px;
+    margin: auto;
 }
 
-#tituloFooter{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
+.EmBranco{
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
-#fale{
-    font-family: 'Roboto', sans-serif;
-    /*font-family: Poppins;*/
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 22px;
-}
-
-.footer > div p{
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
-}
-
-/*Cliente*/
+/*Cliente Remover esta parte*/
 .fer{
     background: rgba(0, 0, 0, 0.672);
     position: fixed;
@@ -257,29 +237,135 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-/*Cliente*/
+/*Cliente remover esta parte*/
 
-@media(max-width:  600px){
-    .part01 ul{
-        display: none;
+@media(max-width: 600px){
+    #gratis{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 10px;
+        border-bottom: none;
     }
-    .part02{
-        display: none;
+    #sant{
+        margin-right: 1px;
+        margin-left: 1px;
+        padding: 1rem 0;
+        margin: 0 1rem;
     }
-
-    .btn-mobile{
+    .menu{
+        background: white;
         display: block;
-    }
-    #menu{
         position: absolute;
         width: 100%;
-        top: 70%;
+        top: 70px;
         right: 0px;
-        background: white;
-        height: calc(100vh);
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
     }
 
-    #nav.active #menu{
+    #nav.active .menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.131);
+    }
+    #btn-mobile{
         display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger{
+        width: 20px;
+        border-top: 2px solid;
+        display: block;
+    }
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    /*Fim menu*/
+
+    .capa{
+        background: #C4C4C4;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #pesquisa{
+        position: relative;
+        top: 61px;
+        margin-left: 1px;
+        padding: 20px;
+        padding-left: 20px;
+    
+        border-radius: 30px;
+        border: none;
+    }
+
+    #santos01{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .primeiro{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .primeiro p{
+        padding: 5px;
+    }
+    .grupo1{
+        position: relative;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /*background: firebrick;*/
+        margin: auto;
+    }
+
+    #pago{
+        width: auto;
+        margin: auto;
+    }
+    .anima1{
+        margin-left: 50px;
     }
 }
