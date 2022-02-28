@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body, ul{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header img{
+    width: 150px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+a:hover{
+    background: rgba(0, 0, 0, 0.303);
+}
+
+.header{
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+
+    border-top: 5px solid #8E72DC;
+}
+.menu{
+    
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+.menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#sant{
+    margin-right: 30px;
+    margin-left: 360px;
+}
+#gratis{
+    background: #8E72DC;
+    border-radius: 2px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+/*Footer*/
+
+
+.footer{
+    background: #3F4A52;
+    padding: 20px;
+    color: white;
+}
+.footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primeiro{
+    margin-right: 40px;
+    margin-left: 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.primeiro p{
+    display: block;
+    padding: .5rem;
+}
+
+#affst{
+    margin-right: 45px;
+    color: rgba(255, 0, 0, 0);
+}
+
+#affst2{
+    margin-right: 45px;
+    color: rgba(255, 0, 0, 0);
+}
+
+#anima1 img{
+width: 23px;
+
+transition: all 0.5s;
+cursor: pointer;
+}
+#anima1 img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.grupo1{
+    display: flex;
+}
+#pago{
+    width: auto;
+    margin: auto;
+}
+
+.EmBranco{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+
+
+@media(max-width: 600px){
+    #gratis{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 10px;
+        border-bottom: none;
+    }
+    #sant{
+        margin-right: 1px;
+        margin-left: 1px;
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    .menu{
+        background: white;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active .menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.131);
+    }
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger{
+        width: 20px;
+        border-top: 2px solid;
+        display: block;
+    }
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    /*Fim menu*/
+
+/*incio footer*/
+    #santos01{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .primeiro{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .primeiro p{
+        padding: 5px;
+    }
+    .grupo1{
+        position: relative;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /*background: firebrick;*/
+        margin: auto;
+    }
+
+    #pago{
+        width: auto;
+        margin: auto;
+    }
+    .anima1{
+        margin-left: 50px;
+    }
+}
