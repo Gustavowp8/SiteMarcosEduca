@@ -67,60 +67,148 @@ a:hover{
 .tTitulo{
     margin-top: 200px;
     text-align: center;
-    font-style: normal;
+    padding-bottom: 50px;
+
     font-weight: 300;
     font-size: 30px;
     line-height: 41px;
 }
 
+#corDifere{
+    background: #FFF5E5;
+    border: 1px solid #F1193C;
+}
 
 .flex{
-    max-width: 990px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 1090px;
 }
-.plan li{
-    list-style: none;
+.card1{
+    width: 298px;
+    margin: auto;
 }
-
-.plan{
-    margin: 15px;
-    background: salmon;
-    width: 300px;
+.plano{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.plano h1{
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+.card2{
+    background: #AEDDFE;
+    border: 1px solid #35ABFC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 9px;
     text-align: center;
-    
 }
-.plan p{
-    
+.card2 p{
+    text-align: center;
+
+    font-weight: 300;
     font-size: 12px;
     line-height: 16px;
 }
-.plan1{
+.card2 a{
+    position: relative;
+    border-bottom: 1px solid black;
+}
+.card3{
+    background: #ffffff;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+        padding-bottom: 5px;
+}
+#preco{
+    text-align: center;
     background: #AEDDFE;
     border: 1px solid #35ABFC;
-    text-align: center;
     box-sizing: border-box;
     border-radius: 20px;
-    padding: 10px;
+    margin: 20px;
 }
-.plan1 h1{
-    font-size: 25px;
+#preco2{
+    text-align: center;
+    background: #FFF5E5;
+    border: 1px solid #F1193C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 20px;
 }
+#assine{
+    background: #8E72DC;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+#tTitulo4{
+    text-align: center;
+}
+.func{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #AEDDFE;
+    border: 1px solid #35ABFC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 20px;
+}
+.cardP p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.nav2 li{
+    list-style: none;
+}
+.nav2{
+    margin: 15px;
+}
+
 #circulo {
     width: 30px;
     height: 30px;
-    background-color: red;
+    background: #FFFFFF;
     border-radius: 50%;
     margin-right: 15px;
     margin-left: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: -10px;
+    margin-top: 5px;
 }
 
-.sobre{
-    display: flex;
-    align-items: center;
+#circulo2 {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.maximoTes{
+    margin-top: 350px;
+    margin-bottom: 250px;
+}
+
 /*Coteudo do site*/
 
 /*Footer*/
@@ -292,5 +380,10 @@ cursor: pointer;
     }
     .anima1{
         margin-left: 50px;
+    }
+
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
