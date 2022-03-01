@@ -352,6 +352,117 @@ cursor: pointer;
     box-sizing: border-box;
 }
 
+/*tela de login*/
+
+.dados{
+    max-width: 990px;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.entraDados{
+    width: 600px;
+}
+
+#boasVindas{
+    text-align: center;
+}
+
+#boasVindas h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3F4A52;
+}
+#boasVindas p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #969696;
+}
+
+#tMail{
+    background: #3f4a5200;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+#tMail2{
+    background: #E5E5E5;
+    width: auto;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#tSenha{
+    background: #3f4a5200;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.tSenha2{
+    background: #E5E5E5;
+    width: auto;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#entraDadosUsusario{
+    max-width: 500px;
+}
+
+#sSenha{
+    color: #8E72DC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+.imgDeDados img{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.imgDeDados{
+    align-items: center;
+}
+
+.confirmarEntra{
+    background: #8E72DC;
+
+    width: auto;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.confirmarEntra a{
+    color: #FFFFFF;
+}
+
+.levaAoCadastro{
+    margin-left: 10px;
+}
+.levaAoCadastro a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8E72DC;
+}
+/*Tela de login*/
+
 @media(max-width: 600px){
     #gratis{
         padding-left: 0px;
@@ -501,6 +612,17 @@ cursor: pointer;
     }
 
     .desativa{
+        display: none;
+    }
+
+    .dados{
+        margin: 10px;
+        width: 100%;
+    }
+    .entraDados{
+        width: 100%;
+    }
+    .imgDeDados{
         display: none;
     }
 }
