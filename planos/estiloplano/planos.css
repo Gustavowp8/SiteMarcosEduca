@@ -616,11 +616,12 @@ cursor: pointer;
     }
 
     .dados{
-        margin: 10px;
         width: 100%;
     }
     .entraDados{
-        width: 100%;
+        margin: auto;
+        width: 300px;
+        padding: 5px;
     }
     .imgDeDados{
         display: none;
