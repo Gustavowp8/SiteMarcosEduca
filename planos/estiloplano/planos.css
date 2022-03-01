@@ -346,6 +346,12 @@ cursor: pointer;
     text-align: center;
 }
 
+#mudaparaV{
+    background: #FFF5E5;
+    border: 1px solid #F1193C;
+    box-sizing: border-box;
+}
+
 @media(max-width: 600px){
     #gratis{
         padding-left: 0px;

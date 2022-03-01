@@ -22,4 +22,8 @@ function falecom(){
     alert('Você será direcionado para o WhastApp!')
     location='https://api.whatsapp.com/send?phone=5561995084318&text=Tenho%20uma%20duvida%2C%20'
 }
+
+function pagat(){
+    alert('Meio de pagamento desabilitado!')
+}
 //Remover esta parte
