@@ -447,7 +447,6 @@ cursor: pointer;
 
 .confirmarEntra{
     background: #8E72DC;
-
     width: auto;
     margin: 10px;
     border-radius: 3px;
@@ -471,6 +470,27 @@ cursor: pointer;
 /*Tela de login*/
 
 /*=======Tela de cadastro========*/
+
+.localCad{
+    margin-top: 70px;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.lagoDoForme{
+    position: relative;
+    background: #8E72DC;
+    border-radius: 7px 0px 0px 0px;
+    max-width: 680px;
+    padding-bottom: 400px;
+    padding-right: 150px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#usuario, #endereco{
+    border: none;
+}
 
 #fContato{
     max-width: 500px;
@@ -585,13 +605,13 @@ cursor: pointer;
     width: 190px;
 }
 #arquivoGpd{
-    text-align: center;
+    margin-left: 10px;
     color: #3F4A52;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 21px;
-    font-family: 'Fredoka', sans-serif;
+    /*font-family: 'Fredoka', sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
@@ -600,13 +620,16 @@ cursor: pointer;
     padding: 10px;
     color: #2C2C2C;
     border: none;
-    margin-left: 15px;
+    padding-right: 10px;
+    margin-left: 5px;
 }
 
 .estados2{
     display: flex;
+    margin-top: -35px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 input[type="file"]{
@@ -647,7 +670,78 @@ input[type="file"]{
 .cad p{
     padding: 10px;
 }
+
+#facaLogin{
+    color: #969696;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#facaLogin a{
+    color: #8E72DC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.telaLgin{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.lagoDoForme h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    
+}
+.lagoDoForme img{
+    padding-top: 50px;
+    max-width: 500px;
+}
 /*=======Tela de cadastro========*/
+
+/*====Responsivo da tela de cadastro========*/
+
+@media(max-width: 1090px){
+    #sant{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .localCad{
+        margin-top: 70px;
+        padding: 20px;
+        padding-left: 100px;
+    }
+    
+    .lagoDoForme{
+        position: relative;
+        background: #8E72DC;
+        border-radius: 7px 0px 0px 0px;
+        max-width: 680px;
+        padding-bottom: 400px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+
+}
+
+/*=====Responsivo da tela de cadastro=======*/
 
 @media(max-width: 600px){
     #gratis{
@@ -820,19 +914,29 @@ input[type="file"]{
         padding: 10px;
         color: #2C2C2C;
         border: none;
-        margin: auto;
-        padding-right: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #arquivoGpd{
        margin: auto;
        text-align: center;
     }
-
-    #arquivoImag{
-     
-    }
     #arquivoImag{
         padding-left: 1px;
+    }
+    .estados2{
+        padding-top: 7px;
+    }
+    .lagoDoForme{
+        display: none;
+    }
+
+    .localCad{
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 400px;
     }
 }

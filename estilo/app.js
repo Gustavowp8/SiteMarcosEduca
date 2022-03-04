@@ -26,4 +26,8 @@ function falecom(){
 function pagat(){
     alert('Meio de pagamento desabilitado!')
 }
+
+function cadastro(){
+    alert('O banco de dados não foi estabelecido!')
+}
 //Remover esta parte
