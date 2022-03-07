@@ -59,3 +59,11 @@ function verifiarLog(){
     location='../logado/logado.html'
 }
 //Remover esta parte
+
+//opções do usuario logado
+function chamaOpcUser(){
+    opcUser.style.display='block'
+}
+function fechaOpcUser(){
+    opcUser.style.display='none'
+}
