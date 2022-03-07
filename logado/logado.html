@@ -4,57 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../arquivos/imagens/logomenor.png" type="image/x-icon">
     <link rel="stylesheet" href="../estilo/logado.css">
     <title>Qquestão</title>
 </head>
-<body id="body">
+<body>
     
-    <header class="header" id="header">
+    <header id="header" class="header">
+        <a href="#" id="logo"><img id="logo2" src="../arquivos/imagens/logoSemFundo.png" alt="img"></a>
 
-        <a href="#" id="logo"><img id="logo" src="../arquivos/imagens/logoSemFundo.png"></a>
+        <div class="grupoDeOpc">
+            <p id="plano">PLANO ATUAL: GRÁTIS</p>
 
-        <div class="iconesSite">
-            <p id="planoUsuario">PLANO ATUAL: GRÁTIS</p>
-            <img id="dTeste" src="../arquivos/icones/temas.png">
-            <img id="dTeste" src="../arquivos/icones/ajuda.png">
-            <img src="../arquivos/icones/notificacao.png">
-            <div class="usuario"><img id="imagemUsuario" src="../arquivos/icones/perfil.png"><p id="uUsuario" onclick="opPerfil()">LogTesteDeCaracteres</p> <img id="setaOp" onclick="opPerfil()" src="../arquivos/icones/seta.png"> </div>
+            <p><img class="iconeGruo" src="../arquivos/icones/temas.png" alt=""></p>
+            <p><img class="iconeGruo" id="ajudaIcone" src="../arquivos/icones/ajuda.png" alt=""></p>
+            <p><img class="iconeGruo" src="../arquivos/icones/notificacao.png" alt=""></p>
+            <button id="btn-mobile" class="btn-mobile">
+                <span id="buguer"></span>
+            </button>
+            <div class="usuariLog"><img src="../arquivos/icones/perfil.png"><p>SemLogDeUSER</p></div><img class="setaUser" src="../arquivos/icones/seta.png">
         </div>
-
-        <div class="opcUsuario" id="opcUsuario" onclick="sairOpUser()">
-            <div class="opcUsuario2">
-                <p onclick="irParaPag()">Minha conta</p>
-                <p onclick="irParaPag()">Meu desempenho</p>
-                <p onclick="irParaPag()">Meus pagamentos</p><br>
-
-                <p id="sairS" onclick="deslogar()">SAIR</p>
-            </div>
-        </div>
-
-        
-        <div class="btn">
-            <img id="dTeste" src="../arquivos/icones/temas.png">
-            <img id="dTeste" src="../arquivos/icones/notificacao.png">
-            <button id="btn" onclick="chamaOpUser()">☰</button>
-        </div>
-
     </header>
 
-    <div class="opcoesUsuario" id="opcoesUsuario">
-        <ul>
-            <li><a href="#">INÍCIO</a></li>
-            <li><a href="#">QUESTÕES</a></li>
-            <li><a href="#">PASTAS</a></li>
-            <li><a href="#">SIMULADOS</a></li>
-            <li><a href="#">MAPAS</a></li>
-            <li><a href="#">GUIAS</a></li>
-            <li><a href="#">DESEMPENHO</a></li>
-            <li><a href="#">CONCURSOS <img id="setaOp" onclick="opPerfil()" src="../arquivos/icones/seta.png"></a></li>
-            <li><a href="#">GRUPOS</a></li>
-        </ul>
-    </div>
+    <div class="HeaderMenu" id="HeaderMenu">
 
+        <nav id="nav" class="nav">
+            <ul id="menu" class="menu">
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">QUESTÕES</a></li>
+                <li><a href="#">PASTAS</a></li>
+                <li><a href="#">SIMULADOS</a></li>
+                <li><a href="#">MAPAS</a></li>
+                <li><a href="#">GUIAS</a></li>
+                <li><a href="#">DESEMPENHO</a></li>
+                <li><a href="#">CONCURSOS <img class="setaUser" src="../arquivos/icones/seta.png"></a></li>
+                <li><a href="#">GRUPOS</a></li>
+            </ul>
+        </nav>
+
+    </div>
 
     <script src="../estilo/app.js"></script>
 </body>

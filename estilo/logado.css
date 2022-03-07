@@ -1,208 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&display=swap');
 
 body{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
-#logo{
-    width: 140px;
+/*==== Header ====*/
+#logo2{
+    width: 160px;
 }
-
+#btn-mobile{
+    display: none;
+}
 .header{
-    display: block;
+    display: flex;
+    justify-content: space-between;
     background: #FFFFFF;
+    align-items: center;
+
+    border-top: 6px solid #8E72DC;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.167);
+}
+.grupoDeOpc{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 5px solid #8E72DC;
-    border-bottom: 1px solid #DBDBDB;
+    margin-right: 20px;
 }
-.iconesSite{
-    display: block;
+.usuariLog{
     display: flex;
-    justify-content: space-around;
+    margin-right: 10px;
     margin-left: 15px;
-    margin-right: 15px;
+    align-items: center;
+
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.iconesSite img{
-   width: 20px;
-   height: 20px;
-   margin: auto;
-   margin-left: 8px;
-}
-#setaOp{
-    width: 13px;
-    height: 13px;
-    cursor: pointer;
-}
-#imagemUsuario{
+.usuariLog img{
     width: 30px;
     height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
-.usuario{
-    display: block;
-    display: flex;
-    justify-content: space-around;
+.iconeGruo{
     padding-left: 10px;
-    margin-right: 10px;
 }
-#uUsuario{
-    margin-left: 10px;
-    margin-right: 2px;
-    padding-top: 3%;
-    color: #3F4A52;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-}
-#planoUsuario{
-    display: block;
-    padding: 0.5rem;
-    margin-right: 10px;
-    border: 1px solid black;
-    color: #3F4A52;
-    border-radius: 4px;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Poppins', sans-serif;
+.setaBaixo img{
+    width: 10px;
+    height: 10px;
 }
 
-.opcUsuario{
-    display: none;
-    background: rgba(0, 0, 0, 0.14);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 50;
-}
-.opcUsuario2{
-    background: #ffffff;
-    position: absolute;
-    width: 190px;
-    z-index: 50;
-    color: #3F4A52;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 4%;
-    right: 2%;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-}
-.opcUsuario2 p{
-    cursor: pointer;
+#plano{
+    margin-right: 10px;
     padding: 5px;
-    margin-left: 10px;
-}
-.opcUsuario2 p:hover{
-    background: rgba(0, 0, 0, 0.235);
-    border-left: 5px solid #8E72DC;
-}
-#sairS{
-    border-top: 1px solid #3f4a5274;
-}
-#sairS:hover{
-    border-left: 5px solid red;
-}
+    border: 1px solid #3F4A52;
+    box-sizing: border-box;
+    border-radius: 2px;
 
-.btn{
-    display: none;
-    border: none;
-    background: transparent;
-    font-size: 17pt;
-    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    color: #3F4A52;
 }
 
-/*===Responsivo====*/
+.setaUser{
+    width: 10px;
+    height: 10px;
+    margin-right: 18px;
+}
+
+/*==== Header ====*/
 
 /*=====MENU======*/
-
-.opcoesUsuario{
-    background: #FAFAFA;
-    border-bottom: 1px solid black;
-    padding-left: 20px;
-}
-
-.opcoesUsuario ul{
-    display: block;
+.HeaderMenu{
+    box-sizing: border-box;
     display: flex;
-    list-style: none;
-    padding: 0.1rem;
+    align-items: center;
+    height: 60px;
+    padding: 1rem;
+    
 }
-.opcoesUsuario a{
-    margin: 15px;
+
+.HeaderMenu a{
     color: #3F4A52;
-    font-size: 14px;
-    line-height: 19px;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     text-decoration: none;
+    display: block;
+    padding: .5rem;
 }
+.HeaderMenu a:hover{
+    background: rgba(0, 0, 0, 0.153);
+}
+
+.menu{
+    padding: 0px;
+    display: flex;
+    gap: .5rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
 /*=====MENU======*/
-
-@media(max-width: 1090px){
-    .opcUsuario2{
-        margin-top: 6%;
-        right: 2%;
-    }
-}
-
-@media(max-width: 1070px){
-    .opcUsuario2{
-        margin-top: 8%;
-        right: 2%;
-    }
-}
 
 @media(max-width: 600px){
-    .btn{
-        display: block;
-        align-items: center;
-    }
-    #btn{
-    border: none;
-    background: transparent;
-    font-size: 17pt;
-    font-weight: bold;
-    margin-top: -5px;
-    }
-    .iconesSite{
+    #ajudaIcone{
         display: none;
     }
-    .dTeste{
-        display: block;
-    }
-    #dTeste{
-        margin-right: 15px;
-        width: 22px;
-        height: 22px;
-        margin-top: 3px;
-    }
-
-    .opcoesUsuario{
+    .usuariLog{
         display: none;
-        position: relative;
-        height: 100%;
+    }
+    #plano{
+        display: none;
+    }
+    .setaUser{
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
         width: 100%;
-        z-index: 3;
+        top: 70px;
+        right: 0;
+        background: #FAFAFA;
+        height: 0;
+        transition: .6s;
+        z-index: 100;
+        visibility: hidden;
+        overflow-y: hidden;
     }
-    .opcoesUsuario ul{
-        display: block;
+    #nav.active .menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.133);
+    }
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: rgba(0, 0, 255, 0);
+        cursor: pointer;
+        gap: .5rem;
     }
 
-    .opcoesUsuario li{
-        margin-top: 10px;
-        padding: 10px;
+    #buguer{
+        border-top: 2px solid;
+        width: 20px;
     }
-    .opcoesUsuario li:hover{
-        background: rgba(0, 0, 0, 0.235);
-        border-left: 5px solid #8E72DC;
-        padding: 10px;
+
+    #buguer::after, #buguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #buguer{
+        border-top-color: transparent;
+    }
+
+    #nav .active #buguer::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #bugue::after{
+        transform: rotate(-135deg);
+        top: -7px;
     }
 }
-
-/*===Responsivo====*/
