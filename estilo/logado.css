@@ -99,25 +99,60 @@ body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
 
-    max-width: 200px;
+    max-width: 290px;
     margin-top: 65px;
-    margin-left: 85%;
+    margin-left: 80%;
 }
 
-#sairUser{
-    border-top: 1px solid black;
-    margin-top: 50px;
-}
 .opcUser2 p{
-    padding-left: 40px;
     cursor: pointer;
     padding: 5px;
+    margin-left: 30px;
 }
 .opcUser2 p:hover{
     background: rgba(0, 0, 0, 0.146);
 }
 
 /*=====Opções do usuario*/
+
+/*===== Opções Cursos =====*/
+
+.cursosOpc{
+    display: none;
+    background: rgba(0, 0, 0, 0.27);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+.cursosOpc2{
+    background: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    color: #3F4A52;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+    max-width: 200px;
+    margin-top: 120px;
+    margin-left: 45%;
+}
+
+.cursosOpc2 p{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 30px;
+}
+.cursosOpc2 p:hover{
+    background: rgba(0, 0, 0, 0.146);
+}
+/*===== Opções Cursos =====*/
 
 /*=====MENU======*/
 .HeaderMenu{
@@ -126,7 +161,7 @@ body{
     align-items: center;
     height: 60px;
     padding: 1rem;
-    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.194);
 }
 
 .HeaderMenu a{
@@ -221,6 +256,11 @@ cursor: pointer;
         margin-top: 70px;
         margin-left: 80%;
     }
+    .cursosOpc2{
+        max-width: 200px;
+        margin-top: 120px;
+        margin-left: 70%;
+    }
 }
 
 @media(max-width: 900px){
@@ -229,11 +269,27 @@ cursor: pointer;
         margin-top: 70px;
         margin-left: 70%;
     }
+    .cursosOpc2{
+        max-width: 200px;
+        margin-top: 120px;
+        margin-left: 40%;
+    }
 }
 
+@media(max-width: 700px){
+    .cursosOpc2{
+        max-width: 200px;
+        margin-top: 120px;
+        margin-left: 20%;
+    }
+}
 /*=========*/
 
 @media(max-width: 600px){
+    .HeaderMenu{
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+    }
+
     #ajudaIcone{
         display: none;
     }
@@ -350,6 +406,11 @@ cursor: pointer;
     .opcUser2{
         max-width: 200px;
         margin-top: 70px;
+        margin-left: 50%;
+    }
+    .cursosOpc2{
+        max-width: 200px;
+        margin-top: 120px;
         margin-left: 50%;
     }
 }

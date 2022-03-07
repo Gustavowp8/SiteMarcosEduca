@@ -22,10 +22,6 @@ function sairOpUser(){
     opcUsuario.style.display='none'
 }
 
-function deslogar(){
-    location='../planos/login.html'
-}
-
 function chamaOpUser(){
     opcoesUsuario.style.display='block'
 }
@@ -66,4 +62,19 @@ function chamaOpcUser(){
 }
 function fechaOpcUser(){
     opcUser.style.display='none'
+}
+
+function chamaConc(){
+    cursosOpc.style.display='block'
+}
+function fechaCursos(){
+    cursosOpc.style.display='none'
+}
+
+function sairUser(){
+    let comSar = confirm('Tem certeza que deseja sair ?')
+
+    if(comSar == true){
+        location='../planos/login.html'
+    }
 }

@@ -37,7 +37,7 @@
                 <li><a href="#">MAPAS</a></li>
                 <li><a href="#">GUIAS</a></li>
                 <li><a href="#">DESEMPENHO</a></li>
-                <li><a href="#">CONCURSOS <img class="setaUser" src="../arquivos/icones/seta.png"></a></li>
+                <li><a href="#" onclick="chamaConc()">CONCURSOS <img class="setaUser" src="../arquivos/icones/seta.png"></a></li>
                 <li><a href="#">GRUPOS</a></li>
             </ul>
         </nav>
@@ -47,11 +47,19 @@
 
     <div class="opcUser" id="opcUser" onclick="fechaOpcUser()">
         <div class="opcUser2">
-            <p>Minha conta</p>
-            <p>Meu desempenho</p>
-            <p>Meus pagamentos</p>
+            <p> Minha conta</p>
+            <p> Meu desempenho</p>
+            <p> Meus pagamentos</p><br>
+            
+            <hr> <p onclick="sairUser()">Sair</p>
+        </div>
+    </div>
 
-            <p id="sairUser">Sair</p>
+    <div class="cursosOpc" id="cursosOpc" onclick="fechaCursos()">
+        <div class="cursosOpc2">
+            <p>Disciplinas</p>
+            <p>Disciplinas</p>
+            <p>Bancas</p>
         </div>
     </div>
 
