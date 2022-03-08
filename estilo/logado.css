@@ -7,8 +7,8 @@ body{
 }
 
 .espaco{
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 /*==== Header ====*/
 #logo2{
@@ -193,6 +193,115 @@ body{
 
 /*=====MENU======*/
 
+
+/*===== Minha Conta ========*/
+
+.minha{
+    width: 200px;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.minha h2{
+    margin-top: -6px;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.minha p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+/*=============*/
+
+.meusDados{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.meusDados h2{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 50px;
+    color: #3F4A52;;
+    margin-bottom: -5;
+}
+
+.meusDados p{
+    margin-top: -7px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #969696;
+}
+
+.dadosAeditar{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dadosAeditar p{
+    align-items: center;
+    background: #E5E5E5;
+    border-radius: 5px;
+    padding-right: -5;
+  
+}
+
+#alteraName{
+    margin-left: -120px;
+    background: #E5E5E5;
+    background-image: url(../arquivos/icones/usuario.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    padding: 10px;
+    outline: 0;
+    border-radius: 5px;
+}
+#alteraMail{
+    margin-left: -120px;
+    background: #E5E5E5;
+    background-image: url(../arquivos/icones/Envelope.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    padding: 10px;
+    outline: 0;
+    border-radius: 5px;
+}
+#alteraNum{
+    margin-left: -258px;
+    background: #E5E5E5;
+    background-image: url(../arquivos/icones/celular.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    padding: 10px;
+    outline: 0;
+    border-radius: 5px;
+}
+
+
+/*===== Minha Conta ========*/
+
+
 /*=====FOOTER=======*/
 
 .footer{
@@ -253,6 +362,188 @@ cursor: pointer;
 }
 /*=====FOOTER=======*/
 
+/*=====Editar======*/
+
+#arquivoGpd{
+    margin-left: 10px;
+    color: #3F4A52;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /*font-family: 'Fredoka', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+#cNome2{
+    background: #E5E5E5;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    
+    outline: 0;
+    /*background-image: url(../../arquivos/icones/usuario.png);*/
+    background-repeat: no-repeat;
+    top: 20px;
+    height:20px;
+    background-position: center, 0 left ;
+    padding-left:10px;     /* Largura da imagem possui 20px */
+	padding-top:10px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#arquivoImag{
+    width: 190px;
+}
+#arquivoGpd{
+    margin-left: 10px;
+    color: #3F4A52;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /*font-family: 'Fredoka', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    background: #8e72dc00;
+}
+
+#cEst{
+    background: rgba(196, 196, 196, 0.56);
+    padding: 10px;
+    color: #2C2C2C;
+    border: none;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+.estados2{
+    display: flex;
+    margin-top: -35px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="file"]{
+    display: none;
+}
+.cadTitulo{
+    text-align: center;
+    color: #3F4A52;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px
+}
+
+#subTitulo{
+    text-align: center;
+    color: #969696;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.cad{
+    background: #8E72DC;
+    border-radius: 5px;
+    text-align: center;
+
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.cad p{
+    padding: 10px;
+}
+
+#facaLogin{
+    color: #969696;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#facaLogin a{
+    color: #8E72DC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.telaLgin{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.lagoDoForme h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    
+}
+.lagoDoForme img{
+    padding-top: 50px;
+    max-width: 500px;
+}
+
+#usuario, #endereco{
+    border: none;
+}
+
+.alteraSenha{
+    width: 200px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.alteraSenha p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3F4A52;
+    background: #00000000;
+    margin-bottom: -5;
+}
+.alteraSenha a{
+    color: #8E72DC;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.salvarAltera{
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    background: #8E72DC;
+    border-radius: 4px;
+    color: white;
+    padding: 0.1rem;
+}
+
+/*======Editar=====*/
 /*==============*/
 
 @media(max-width: 1000px){
@@ -417,5 +708,72 @@ cursor: pointer;
         max-width: 200px;
         margin-top: 120px;
         margin-left: 50%;
+    }
+
+    .dadosAeditar{
+        max-width: 500px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .dadosAeditar p{
+        align-items: center;
+        background: #E5E5E5;
+        border-radius: 5px;
+        
+      
+    }
+
+    #alteraName{
+        margin-right: -120px;
+        background: #E5E5E5;
+        background-image: url(../arquivos/icones/usuario.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        border: none;
+        padding: 10px;
+        outline: 0;
+        border-radius: 5px;
+    }
+    #alteraMail{
+        margin-right: -120px;
+        background: #E5E5E5;
+        background-image: url(../arquivos/icones/Envelope.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        border: none;
+      
+        outline: 0;
+        border-radius: 5px;
+    }
+
+    #alteraNum{
+        margin-right: -120px;
+        background: #E5E5E5;
+        background-image: url(../arquivos/icones/celular.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        border: none;
+        margin: 10px;
+        outline: 0;
+        border-radius: 5px;
+        size: 30px;
+    }
+    .alteraSenha p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #3F4A52;
+        background: #00000000;
+        margin-bottom: -5;
     }
 }

@@ -78,3 +78,8 @@ function sairUser(){
         location='../planos/login.html'
     }
 }
+
+/*=====Minha conta ======*/
+function minhaConta(){
+    location='minhaConta.html'
+}
