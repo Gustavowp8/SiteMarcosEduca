@@ -21,3 +21,31 @@ function element(id) {
         })
     })
 }
+
+try {
+    // Disciplina add
+    var btnDisciplinaAdd = document.getElementById('btn-add-disciplina')
+    btnDisciplinaAdd.addEventListener('click', () => {
+        let campInputs = document.getElementById('add-disciplina')
+        campInputs.classList.toggle('sr-only')
+    })
+
+} catch (error) {
+    console.log('Tela errada - Disciplina')
+}
+
+// Password icon
+try {
+    const passwordIcon = document.getElementById('passwordEdite')
+    passwordIcon.addEventListener('click', () => {
+        let inputPassword = document.getElementById('inputPassword').getAttribute('type')
+        console.log(inputPassword)
+        if (inputPassword === 'text') {
+            document.getElementById('inputPassword').setAttribute('type', 'password')
+        } else {
+            document.getElementById('inputPassword').setAttribute('type', 'text')
+        }
+    })
+} catch (error) {
+    console.log('Tela errada - cadastro user')
+}

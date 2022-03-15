@@ -37,5 +37,8 @@ var swiper = new Swiper(".mySwiper", {
   function avisoProc(){
       alert('Aguardando documento HTML')
   }
-
+ 
+  function dash(){
+    location="questions/01.1_QUESTOES_TODAS_AS_QUESTOES _ADICIONAR-ABCDE.html"
+  }
   /*==== aviso ====*/
