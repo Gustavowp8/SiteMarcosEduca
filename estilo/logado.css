@@ -1,306 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.espaco{
-    padding-top: 200px;
-    padding-bottom: 200px;
+/*==== header ====*/
+
+#logoImg{
+    width: 120px;
 }
-/*==== Header ====*/
-#logo2{
-    width: 160px;
-}
-#btn-mobile{
-    display: none;
-}
+
 .header{
     display: flex;
-    justify-content: space-between;
-    background: #FFFFFF;
     align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.338);
+    padding-left: 5px;
+    border-top: 5px solid #8E72DC;
+}
 
-    border-top: 6px solid #8E72DC;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.167);
-}
-.grupoDeOpc{
+.painel1{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
 }
-.usuariLog{
-    display: flex;
-    margin-right: 10px;
-    margin-left: 15px;
-    align-items: center;
+
+.painel1 p{
+    display: block;
+    border: 1px solid #3F4A52;
+    margin-right: 15px;
+    padding: 7px;
+}
+
+.listaIcones img{
+    width: 20px;
+    margin-left: 5px;
+    transition: all 0.5s;
     cursor: pointer;
-
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
-.usuariLog img{
+
+.listaIcones img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+/*
+.listaIcones{
+    
+}
+*/
+
+.user img{
     width: 30px;
     height: 30px;
-    margin-left: 10px;
-    margin-right: 5px;
 }
-.iconeGruo{
-    padding-left: 10px;
+.user p{
+    border: none;
+    margin-right: -5px;
 }
-.setaBaixo img{
-    width: 10px;
-    height: 10px;
-}
-
-#plano{
-    margin-right: 10px;
-    padding: 5px;
-    border: 1px solid #3F4A52;
-    box-sizing: border-box;
-    border-radius: 2px;
-
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #3F4A52;
-}
-
-.setaUser{
-    width: 10px;
-    height: 10px;
-    margin-right: 18px;
-    cursor: pointer;
-}
-
-/*==== Header ====*/
-
-/*=====Opções do usuario*/
-#contaUp{
-    display: none;
-}
-
-.opcUser{
-    display: none;
-    background: rgba(0, 0, 0, 0.27);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 200;
-}
-.opcUser2{
-    background: #FFFFFF;
-    border: 0.5px solid #C4C4C4;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-
-    color: #3F4A52;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-
-    max-width: 290px;
-    margin-top: 65px;
-    margin-left: 80%;
-}
-
-.opcUser2 p{
-    cursor: pointer;
-    padding: 5px;
-    margin-left: 30px;
-}
-.opcUser2 p:hover{
-    background: rgba(0, 0, 0, 0.146);
-}
-
-/*=====Opções do usuario*/
-
-/*===== Opções Cursos =====*/
-
-.cursosOpc{
-    display: none;
-    background: rgba(0, 0, 0, 0.27);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 200;
-}
-
-.cursosOpc2{
-    background: #FFFFFF;
-    border: 0.5px solid #C4C4C4;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-
-    color: #3F4A52;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-
-    max-width: 200px;
-    margin-top: 120px;
-    margin-left: 45%;
-}
-
-.cursosOpc2 p{
-    cursor: pointer;
-    padding: 5px;
-    margin-left: 30px;
-}
-.cursosOpc2 p:hover{
-    background: rgba(0, 0, 0, 0.146);
-}
-/*===== Opções Cursos =====*/
-
-/*=====MENU======*/
-.HeaderMenu{
-    box-sizing: border-box;
+.user{
     display: flex;
     align-items: center;
-    height: 60px;
-    padding: 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.194);
+}
+#SetaMenu{
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
 }
 
-.HeaderMenu a{
-    color: #3F4A52;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    display: block;
-    padding: .5rem;
+.user{
+    /*background: blue;*/
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 15px;
 }
-.HeaderMenu a:hover{
-    background: rgba(0, 0, 0, 0.153);
+
+.menu P{
+    border: none;
+    cursor: pointer;
+}
+
+.menu P:hover{
+    background: rgba(0, 0, 0, 0.194);
+    border-left: 5px solid #8E72DC;
 }
 
 .menu{
-    padding: 0px;
-    display: flex;
-    gap: .5rem;
-}
-
-.menu li{
-    list-style: none;
-}
-
-/*=====MENU======*/
-
-
-/*===== Minha Conta ========*/
-
-.minha{
+    display: none;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    right: 0;
+    margin-top: 10px;
+    position: absolute;
+    margin-right: 10px;
     width: 200px;
-    margin-left: 25px;
-    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+    z-index: 10;
+
+    border: 1px solid rgba(0, 0, 0, 0.208);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
 }
-
-.minha h2{
-    margin-top: -6px;
-    font-size: 26px;
-    line-height: 35px;
-    color: #000000;
-}
-
-.minha p{
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 16px;
-    color: #000000;
-}
-
-/*=============*/
-
-.meusDados{
-    font-family: 'Open Sans', sans-serif;
+#ExitSar{
     margin-top: 20px;
-    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.407);
+}
+#ExitSar:hover{
+    border-left: 5px solid rgba(255, 0, 0, 0.455);
 }
 
-.meusDados h2{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 50px;
-    color: #3F4A52;;
-    margin-bottom: -5;
+.btn-mobile{
+    display: none;
 }
 
-.meusDados p{
-    margin-top: -7px;
-    font-weight: 900;
+/*==== header ====*/
+
+/*====== MENU ======*/
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menuP a{
+    color: #3F4A52;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+
+    display: block;
+    padding: .4rem;
+}
+
+.menuP a:hover{
+    background: #8E72DC;
+    border-radius: 5px;
+    color: white;
+}
+
+.menuP{
+    box-sizing: border-box;
+    align-items: center;
+    height: 10px;
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    background: #FAFAFA;
+}
+
+#SetaMenu2{
+    margin-left: 8px;
+    width: 10px;
+    height: 10px;
+}
+
+.opc3{
+    display: none;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 10px;
+    z-index: 10;
+
+    background: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.opc3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-    color: #969696;
+    color: #3F4A52;
+    cursor: pointer;
 }
 
-.dadosAeditar{
-    max-width: 500px;
-    margin: auto;
-    margin-top: 10px;
-    text-align: center;
+.opc3 p:hover{
+    background: rgba(0, 0, 0, 0.194);
+    border-left: 5px solid #8E72DC;
 }
 
-.dadosAeditar p{
-    align-items: center;
-    background: #E5E5E5;
-    border-radius: 5px;
-    padding-right: -5;
-  
-}
-
-#alteraName{
-    margin-left: -120px;
-    background: #E5E5E5;
-    background-image: url(../arquivos/icones/usuario.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    border: none;
-    padding: 10px;
-    outline: 0;
-    border-radius: 5px;
-}
-#alteraMail{
-    margin-left: -120px;
-    background: #E5E5E5;
-    background-image: url(../arquivos/icones/Envelope.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    border: none;
-    padding: 10px;
-    outline: 0;
-    border-radius: 5px;
-}
-#alteraNum{
-    margin-left: -258px;
-    background: #E5E5E5;
-    background-image: url(../arquivos/icones/celular.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    border: none;
-    padding: 10px;
-    outline: 0;
-    border-radius: 5px;
-}
+/*====== MENU ======*/
 
 
-/*===== Minha Conta ========*/
+/*===== Conteudo do site=======*/
 
+/*===== Conteudo do site=======*/
 
 /*=====FOOTER=======*/
 
@@ -326,6 +222,7 @@ body{
 .primeiro p{
     display: block;
     padding: .5rem;
+    cursor: pointer;
 }
 
 #affst{
@@ -362,279 +259,63 @@ cursor: pointer;
 }
 /*=====FOOTER=======*/
 
-/*=====Editar======*/
-
-#arquivoGpd{
-    margin-left: 10px;
-    color: #3F4A52;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    /*font-family: 'Fredoka', sans-serif;*/
-    font-family: 'Poppins', sans-serif;
-}
-
-#cNome2{
-    background: #E5E5E5;
-    border: none;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    
-    outline: 0;
-    /*background-image: url(../../arquivos/icones/usuario.png);*/
-    background-repeat: no-repeat;
-    top: 20px;
-    height:20px;
-    background-position: center, 0 left ;
-    padding-left:10px;     /* Largura da imagem possui 20px */
-	padding-top:10px;
-    padding-bottom: 5px;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-
-#arquivoImag{
-    width: 190px;
-}
-#arquivoGpd{
-    margin-left: 10px;
-    color: #3F4A52;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    /*font-family: 'Fredoka', sans-serif;*/
-    font-family: 'Poppins', sans-serif;
-    background: #8e72dc00;
-}
-
-#cEst{
-    background: rgba(196, 196, 196, 0.56);
-    padding: 10px;
-    color: #2C2C2C;
-    border: none;
-    padding-right: 10px;
-    margin-left: 5px;
-}
-
-.estados2{
-    display: flex;
-    margin-top: -35px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-input[type="file"]{
-    display: none;
-}
-.cadTitulo{
-    text-align: center;
-    color: #3F4A52;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 33px
-}
-
-#subTitulo{
-    text-align: center;
-    color: #969696;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-}
-
-.cad{
-    background: #8E72DC;
-    border-radius: 5px;
-    text-align: center;
-
-    color: #FFFFFF;
-    font-size: 15px;
-    line-height: 15px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    margin: 10px;
-}
-
-.cad p{
-    padding: 10px;
-}
-
-#facaLogin{
-    color: #969696;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-#facaLogin a{
-    color: #8E72DC;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.telaLgin{
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-}
-
-.lagoDoForme h1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 42px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 60px;
-    
-}
-.lagoDoForme img{
-    padding-top: 50px;
-    max-width: 500px;
-}
-
-#usuario, #endereco{
-    border: none;
-}
-
-.alteraSenha{
-    width: 200px;
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-}
-.alteraSenha p{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    color: #3F4A52;
-    background: #00000000;
-    margin-bottom: -5;
-}
-.alteraSenha a{
-    color: #8E72DC;
-    font-size: 14px;
-    line-height: 19px;
-}
-
-.salvarAltera{
-    margin-top: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    background: #8E72DC;
-    border-radius: 4px;
-    color: white;
-    padding: 0.1rem;
-}
-
-/*======Editar=====*/
-/*==============*/
-
-@media(max-width: 1000px){
-    .opcUser2{
-        max-width: 200px;
-        margin-top: 70px;
-        margin-left: 80%;
-    }
-    .cursosOpc2{
-        max-width: 200px;
-        margin-top: 120px;
-        margin-left: 70%;
-    }
-}
-
-@media(max-width: 900px){
-    .opcUser2{
-        max-width: 200px;
-        margin-top: 70px;
-        margin-left: 70%;
-    }
-    .cursosOpc2{
-        max-width: 200px;
-        margin-top: 120px;
-        margin-left: 40%;
-    }
-}
-
-@media(max-width: 700px){
-    .cursosOpc2{
-        max-width: 200px;
-        margin-top: 120px;
-        margin-left: 20%;
-    }
-}
-/*=========*/
-
 @media(max-width: 600px){
-    .HeaderMenu{
-        border-bottom: 1px solid rgba(0, 0, 0, 0);
-    }
 
-    #ajudaIcone{
+    /*====== MENU & HEADER ======*/
+
+    #ForaRespon{
         display: none;
     }
-    .usuariLog{
+    #plnao{
         display: none;
     }
-    #plano{
+    .action21{
         display: none;
     }
-    .setaUser{
-        display: none;
-    }
-    .menu{
+    .menuP{
         display: block;
         position: absolute;
         width: 100%;
-        top: 70px;
-        right: 0;
+        top: 50px;
+        right: 0px;
         background: #FAFAFA;
-        height: 0;
         transition: .6s;
-        z-index: 100;
+        z-index: 8;
+        height: 0px;
         visibility: hidden;
         overflow-y: hidden;
     }
-    #nav.active .menu{
-        height: calc(100vh - 70px);
+
+    #nav.active .menuP{
+        height: calc(100vh - 50px);
         visibility: visible;
         overflow-y: auto;
     }
-    .menu a{
+
+    .menuP a{
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.133);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.201);
     }
-    #btn-mobile{
+
+    .btn-mobile{
         display: flex;
-        padding: .5rem 1rem;
+        margin-left: 10px;
+        margin-right: 15px;
+
+        padding: .5em 1rem;
         font-size: 1rem;
         border: none;
-        background: rgba(0, 0, 255, 0);
+        background: none;
         cursor: pointer;
+
         gap: .5rem;
     }
 
     #hamburger{
-        width: 20px;
-        border-top: 2px solid;
         display: block;
+        width: 20px;
+        border-top: 3px solid;
     }
 
     #hamburger::after, #hamburger::before{
@@ -644,23 +325,21 @@ input[type="file"]{
         height: 2px;
         background: currentColor;
         margin-top: 5px;
-        transition: .3s;
-        position: relative;
+    }
+
+    #nav.active #hamburger{
+        background: red;
+    }
+
+    #hamburger::after{
+
+    }
+
+    #hamburger::before{
         
     }
-    #nav.active #hamburger{
-        border-top-color: transparent;
-    }
 
-    #nav.active #hamburger::before{
-        transform: rotate(135deg);
-    }
-
-
-    #nav.active #hamburger::after{
-        transform: rotate(-135deg);
-        top: -7px;
-    }
+    /*====== MENU & HEADER ======*/
 
     /*======FOOTER====*/
     .footer{
@@ -696,84 +375,4 @@ input[type="file"]{
         margin-left: 50px;
     }
     /*======FOOTER====*/
-    #contaUp{
-        display: block;
-    }
-    .opcUser2{
-        max-width: 200px;
-        margin-top: 70px;
-        margin-left: 50%;
-    }
-    .cursosOpc2{
-        max-width: 200px;
-        margin-top: 120px;
-        margin-left: 50%;
-    }
-
-    .dadosAeditar{
-        max-width: 500px;
-        margin: 10px;
-        text-align: center;
-    }
-
-    .dadosAeditar p{
-        align-items: center;
-        background: #E5E5E5;
-        border-radius: 5px;
-        
-      
-    }
-
-    #alteraName{
-        margin-right: -120px;
-        background: #E5E5E5;
-        background-image: url(../arquivos/icones/usuario.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 19px;
-        border: none;
-        padding: 10px;
-        outline: 0;
-        border-radius: 5px;
-    }
-    #alteraMail{
-        margin-right: -120px;
-        background: #E5E5E5;
-        background-image: url(../arquivos/icones/Envelope.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 19px;
-        border: none;
-      
-        outline: 0;
-        border-radius: 5px;
-    }
-
-    #alteraNum{
-        margin-right: -120px;
-        background: #E5E5E5;
-        background-image: url(../arquivos/icones/celular.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 19px;
-        border: none;
-        margin: 10px;
-        outline: 0;
-        border-radius: 5px;
-        size: 30px;
-    }
-    .alteraSenha p{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        color: #3F4A52;
-        background: #00000000;
-        margin-bottom: -5;
-    }
 }

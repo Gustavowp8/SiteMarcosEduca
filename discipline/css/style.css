@@ -1,0 +1,145 @@
+.logo {
+  display: inline-flex;
+  width: 91px;
+  height: 24px;
+  background: url("/imgs/logo.png") no-repeat;
+}
+header {
+  height: 58px;
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .perfil {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+header .container .perfil .personal {
+  background-color: #ffe6cc;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 32px;
+}
+header .container .perfil .personal img {
+  width: 16px;
+  height: 16px;
+}
+header .container .perfil i {
+  color: #1f384c;
+}
+
+main .container {
+  display: flex;
+}
+
+/* Section painel */
+section.painel {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+section.painel .painel-content ul {
+  overflow-y: auto;
+}
+section.painel .painel-content ul::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+section.painel .painel-content ul::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+section.painel .painel-content ul::-webkit-scrollbar-thumb {
+  background-color: var(--third); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid var(--third); /* creates padding around scroll thumb */
+}
+section.painel .painel-content ul > li {
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+
+  padding: 7px;
+  padding-left: 11px;
+  position: relative;
+  border-radius: 0.3rem;
+  transition: 500ms ease-out;
+}
+section.painel .painel-content ul li:hover {
+  background-color: var(--white);
+  color: var(--secound);
+}
+section.painel .painel-content ul li.active {
+  background-color: rgba(112, 127, 221, 0.1);
+  padding: 4px 9px;
+  border-radius: 5px;
+  display: inline-flex;
+  position: relative;
+  transition: 500ms ease-out;
+  flex-direction: column;
+}
+span.link__active {
+  color: var(--third);
+}
+section.painel .painel-content ul > li > ul {
+  padding: 0.25rem 0.25rem 0.25rem 1rem;
+  margin-top: 16px;
+}
+
+section.painel .painel-content ul > li.active {
+  width: 100%;
+}
+
+section.painel .painel-content ul > li.active p {
+  background-color: var(--white);
+  padding: 7px;
+  padding-left: 7px;
+  border-radius: 13px;
+  color: var(--secound);
+  font-weight: 500;
+}
+section.painel .painel-content ul > li.active .question__active i {
+  font-size: 15px;
+}
+
+.d-n {
+  display: none;
+}
+
+#painel-content {
+  background-color: var(--secound-opacity);
+  position: relative;
+  border-radius: 10px;
+  width: 0px;
+  height: 0px;
+  padding: 0;
+
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  transition: 300ms ease-in-out all;
+}
+
+#painel-content.active {
+  height: 100%;
+  overflow: visible;
+  width: 200px;
+  height: 100%;
+  margin-top: 1.5rem;
+  position: relative;
+  transition: 500ms ease;
+}
+
+section.right {
+  width: 100%;
+}

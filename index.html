@@ -4,162 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="arquivos/imagens/logomenor.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/style.css">
-    <title>Qlegis</title>
+    <link rel="stylesheet" href="estilo/inicio.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>Qquestão</title>
 </head>
 <body>
+    
+    <header class="header" id="header">
 
-    <header id="header" class="header">
-        <a href="index.html"><img src="arquivos/imagens/logoSemFundo.png" alt=""></a>
+        <div id="opc01">
+            <img src="arquivos/icones/logoQqustao.png">
 
-        <nav id="nav">
+            <div class="opcQu" id="opcQu">
+                <div class="fecha" onclick="fechaMenu()">FECHAR</div>
+            <p id="enter" onclick="avisoProc()">ENTRAR</p>
+            <p onclick="avisoProc()">QUESTÕES</p>
+            <p onclick="avisoProc()">SIMULADOS</p>
+            <p onclick="avisoProc()">RESUMAPAS</p>
+            <p onclick="avisoProc()">GUIAS</p>
+            <p onclick="avisoProc()">PLANOS</p>
+            <p onclick="avisoProc()">GRUPOS</p>
+            <p id="expe22" onclick="avisoProc()">EXPERIMENTE GRÁTIS</p>
+            </div>
+        </div>
 
-            <button id="btn-mobile">
-                <span id="hamburger"></span>
-            </button>
+        <div id="opc02">
+            <p onclick="avisoProc()">ENTRAR</p>
+            <p id="expe" onclick="avisoProc()">EXPERIMENTE GRÁTIS</p>
+        </div>
 
-            <ul id="menu" class="menu">
-                <li><a href="#" onclick="aviso()">QUESTÕES</a></li>
-                <li><a href="#" onclick="aviso()">SIMULADOS</a></li>
-                <li><a href="#" onclick="aviso()">RESUMAPAS</a></li>
-                <li><a href="#" onclick="aviso()">GUIAS</a></li>
-                <li><a href="planos/planos.html">PLANOS</a></li>
-                <li><a href="#" onclick="aviso()">GRUPOS</a></li>
-                <li><a href="planos/login.html" id="sant">ENTRAR</a></li>
-                <li><a href="#" id="gratis" onclick="aviso()">EXPERIMENTA GRÁTIS</a></li>
-            </ul>
-
-        </nav>
+        <img id="chamaMenu" onclick="chamaMenuUser()" src="arquivos/icones/menu-aberto.png">
 
     </header>
 
-    <div class="capa">
-        <h1>Aqui vai uma imagem</h1>
+    <div class="banner">
 
-        <input type="text" name="pesquisa" id="pesquisa">
+        <input id="titulo" type="button" value="TITULO">
+
     </div>
+
+    <div class="sobre">
+        <div class="sober1">
+
+            <div>
+                <h2>+40.000</h2>
+                <p>
+                    Questões de Enfermagem
+                </p>
+            </div>
+
+
+            <div>
+                <h2>+40.000</h2>
+                <p>
+                    Comentários dos professores
+                </p>
+            </div>
+
+            <div>
+                <h2>+40.000</h2>
+                <p>
+                    Mapas mentais de Enfermagem
+                </p>
+            </div>
+
+            <div>
+                <h2>+40.000</h2>
+                <p>
+                    Questões inéditas
+                </p>
+            </div>
+
+            <div>
+                <h2>+40.000</h2>
+                <p>
+                    Simulados inéditos
+                </p>
+            </div>
+
+        </div>
+        <div class="mudar"><p>EU QUERO MUDAR DE VIDA</p></div>
+    </div>
+
+    <h2 class="tTituloM">Por que usar a plataforma Qquestao?</h2>
 
     <section class="flex">
 
         <div>
-            <h4>+40.000</h4>
-            <p>Questões de Enfermagem</p>
+            <p><strong>Acompanhe seu desempenho</strong></p>
+            <p> Saiba os seus pontos fortes e fracos.</p>
         </div>
 
         <div>
-            <h4>+40.000</h4>
-            <p>Comentários dos professores</p>
+            <p><strong>Saiba os assuntos mais cobrados</strong></p>
+            <p> Saiba o que é mais cobrado e controle seus estudos.</p>
         </div>
 
         <div>
-            <h4>+40.000</h4>
-            <p>Mapas mentais de Enfermagem</p>
-        </div>
-
-        <div>
-            <h4>+40.000</h4>
-            <p>Questões inéditas</p>
-        </div>
-
-        <div>
-            <h4>+40.000</h4>
-            <p>Simulados inéditos</p>
-        </div>
-
-        <div>
-            <a href="#" id="santos01" onclick="aviso()">EU QUERO MUDAR DE VIDA</a>
-            </div>
-
-    </section>
-
-    <h2 class="Ttitulo">Por que usar a plataforma Qquestao?</h2>
-    
-    <section class="gus">
-
-        <div>
+            <p><strong>Simulados</strong></p>
             <p>
-                <strong>Acompanhe seu desempenho</strong><br>
-                Saiba os seus pontos fortes e fracos.
-            </p>
-        </div>
-
-        <div>
-            <p>
-                <strong>Saiba os assuntos mais cobrados</strong> <br>
-                Saiba o que é
-                mais cobrado e controle <br>
-                seus estudos.
-            </p>
-        </div>
-
-        <div>
-            <p>
-                <strong>Simulados</strong><br>
                 Treine com os melhores simulados <br>
-                inéditos ou crie seu próprio simulado. <br>
-                Participe do ranking.
+                 inéditos ou crie seu próprio simulado. <br>
+                 Participe do ranking.
             </p>
         </div>
 
         <div>
+            <p><strong>Resumapas</strong></p>
             <p>
-                <strong>Resumapas</strong> <br>
                 Materiais preparados para <br>
                 economizar o seu tempo e <br>
                 potencializar seu estudo.
-                            </p>
+            </p>
         </div>
 
         <div>
+            <p><strong>Guias de estudo</strong></p>
             <p>
-                <strong>Guias de estudo</strong><br>
-            Questões organizadas <br>
-            conforme os editais <br>
-            publicados. Acesse e Estude.
+                Questões organizadas <br>
+                conforme os editais <br>
+                publicados. Acesse e Estude.
             </p>
         </div>
 
     </section>
 
-    <div class="EmBranco">
+
+    <div class="espa">
 
     </div>
 
+    <div class="aviso" id="aviso">
+        <div class="aviso1"> 
+            <img src="arquivos/icones/cover.png" width="100px">
+            <h3>atualizações </h3>
+            <div class="aviso2">
 
-    <!-- Remover esta parte -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">Código fonte otimizado</div>
+                      <div class="swiper-slide">ícones SVG</div>
+                      <div class="swiper-slide">Autenticação pronta</div>
+                      <div class="swiper-slide">Refazendo INPUTS</div>
+                      <div class="swiper-slide">JavaScript otimizado</div>
+                      <div class="swiper-slide">Próxima atualização 16/03</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
 
-    <div class="fer" id="fer">
-        <div class="fer1">
-            <img class="logoGage" src="arquivos/imagens/cover.png" width="150px">
-            <h3>
-                Este site está em desenvolvimento e passando por testes de produção! 
-            </h3>
-            <p>
-                Responsável de implementação: <strong>Gustavo Ferreira</strong>
-            </p> <br>
+            </div>
 
-            <h4><strong>PREPARANDO VERSÃO 1.0.3 (estável)</strong></h4>
-            <h4>Algumas páginas não estão carregando!</h4>
-            <h4>Números de erros não reportados!</h4>
+            <p><strong>Aguardando documentos HTML</strong></p>
+            <p>Algumas páginas não estão carregando</p>
+            <p>Código JS está sendo otimizado</p> <br>
+            <h2>versão 1.0.3 / concluído 025% </h2>
 
-            <div class="inf" onclick="sobre()"> DASHBOARD ( indisponível ) </div>
-            <div class="inf" onclick="fecha()"> SITE USUARIO</div>
-            <div class="inf" onclick="falecom()"> Falar com o Programador </div>
-            
-           <p>Versão 1.0.0</p>
-           <p id="avisoVersion"><strong>PREPARANDO VERSÃO 1.0.3</strong></p>
-            <p>Concluido: 021%</p>
+            <div class="linksU">DASHBOARD ( indisponível )</div>
+            <div class="linksU" onclick="verSite()">SITE USUARIO</div>
+            <div class="linksU" onclick="chamaPro()">falar com o programador</div> <br>
+
         </div>
     </div>
 
-    <!-- Remover esta parte -->
+    <!--====== Footer ======-->
 
     <footer class="footer">
 
         <div class="primeiro">
             <p>
-                <img src="arquivos/imagens/image_2022-02-27_17-21-57.png" width="150px">
+                <img src="arquivos/icones/image_2022-02-27_17-21-57.png" width="150px">
             </p>
 
             <p>
@@ -187,23 +202,25 @@
             </p>
 
             <div class="grupo1">
-                <img id="pago" src="arquivos/imagens/Rectangle 24.png" alt="">
+                <img id="pago" src="arquivos/icones/Rectangle 24.png" alt="">
 
                 <p id="affst2">
                     Ajuda
                 </p>
 
             <p id="anima1"><strong>Fale conosco</strong><br>
-                <img src="arquivos/imagens/email.jpg">
-                <img src="arquivos/imagens/whastapp.jpg">
-                <img src="arquivos/imagens/facebook.jpg">
-                <img src="arquivos/imagens/insta.jpg">
+                <img src="arquivos/icones/email.jpg">
+                <img src="arquivos/icones/whastapp.jpg">
+                <img src="arquivos/icones/facebook.jpg">
+                <img src="arquivos/icones/insta.jpg">
             </p>
             </div>
         </div>
 
     </footer>
 
-    <script src="estilo/app.js"></script>
+    <!--====== Footer ======-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="funcoes/inicio.js"></script>
 </body>
 </html>
