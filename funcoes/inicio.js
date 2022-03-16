@@ -42,3 +42,14 @@ var swiper = new Swiper(".mySwiper", {
     location="questions/01.1_QUESTOES_TODAS_AS_QUESTOES _ADICIONAR-ABCDE.html"
   }
   /*==== aviso ====*/
+
+  /*====== links ======*/
+  function paginaPlanos(){
+    location='planos/planos.html'
+  }
+  function verifiarLog(){
+    location='../00_logado/inicioLogado.html'
+  }
+  function avisoEntre(){
+    location='planos/login.html'
+  }

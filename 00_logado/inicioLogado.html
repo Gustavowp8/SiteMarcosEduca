@@ -4,40 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/inicio.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../estilo/logado.css">
+    
     <title>Qquestão</title>
 </head>
 <body>
+
+    <!--====== header ======-->
     
     <header class="header" id="header">
 
-        <div id="opc01">
-            <img src="arquivos/icones/logoQqustao.png">
+        <div class="logo">
+            <a href="#"><img id="logoImg" src="../arquivos/icones/logoQqustao.png" alt="logo"></a>
+        </div>
 
-            <div class="opcQu" id="opcQu">
-                <div class="fecha" onclick="fechaMenu()">FECHAR</div>
-            <p id="enter" onclick="avisoProc()">ENTRAR</p>
-            <p onclick="avisoProc()">QUESTÕES</p>
-            <p onclick="avisoProc()">SIMULADOS</p>
-            <p onclick="avisoProc()">RESUMAPAS</p>
-            <p onclick="avisoProc()">GUIAS</p>
-            <p onclick="paginaPlanos()">PLANOS</p>
-            <p onclick="avisoProc()">GRUPOS</p>
-            <p id="expe22" onclick="avisoProc()">EXPERIMENTE GRÁTIS</p>
+        <div class="painel1">
+
+            <p id="plnao">PLANO ATUAL: GRÁTIS</p>
+
+            <div class="listaIcones">
+                <img src="../arquivos/icones/temas.png" alt="icones">
+                <img id="ForaRespon" src="../arquivos/icones/ajuda.png" alt="icones">
+                <img src="../arquivos/icones/notificacao.png" alt="icones">
+                
             </div>
-        </div>
+            <button id="btn-mobile" class="btn-mobile">
 
-        <div id="opc02">
-            <p onclick="avisoEntre()">ENTRAR</p>
-            <p id="expe" onclick="avisoProc()">EXPERIMENTE GRÁTIS</p>
-        </div>
+                <span id="hamburger" class="hamburge"></span>
 
-        <img id="chamaMenu" onclick="chamaMenuUser()" src="arquivos/icones/menu-aberto.png">
+            </button>
+
+    <div class="action21">
+        <div class="profile">
+            <div class="user" onclick="chamaUser()"><img src="../arquivos/icones/perfil.png"><p>Desconectado</p><img id="SetaMenu" src="../arquivos/icones/setaBaixo.png"> </div>
+        </div>
+        <div class="menu" id="menu">
+            <p onclick="irPag()">Minha conta</p>
+            <p onclick="irPag()">Meu desempenho</p>
+            <p onclick="irPag()">Meus pagamentos</p>
+            
+            <p id="ExitSar" onclick="irPag()">SAIR</p>
+        </div>
+    </div>
+        </div>
 
     </header>
 
-    <div class="banner">
+    <!--====== header ======-->
+
+    <!--====== MENU ======-->
+
+    <nav id="nav" class="nav">
+        <ul id="menuP" class="menuP">
+            <li><a href="#">INÍCIO</a></li>
+            <li><a href="#">QUESTÕES</a></li>
+            <li><a href="#">PASTAS</a></li>
+            <li><a href="#">SIMULADOS</a></li>
+            <li><a href="#">GUIAS</a></li>
+            <li><a href="#">DESEMPENHO</a></li>
+            <div class="opc">
+                <div class="opc1">
+                    <li><a href="#" onclick="chamaComcurso()">CONCURSOS <img id="SetaMenu2" src="../arquivos/icones/setaBaixo.png"></a></li>
+                </div>
+                <div class="opc3" id="opc3">
+                    <p onclick="fechaConcursos()">Disciplinas</p>
+                    <p onclick="fechaConcursos()">Assuntos</p>
+                    <p onclick="fechaConcursos()">Bancas</p>
+                </div>
+            </div>
+            <li><a href="#">GRUPOS</a></li>
+        </ul>
+    </nav>
+
+     <!--====== MENU ======-->
+
+
+     <div class="banner">
 
         <input id="titulo" type="button" value="TITULO">
 
@@ -134,49 +176,20 @@
 
     </div>
 
-    <div class="aviso" id="aviso">
-        <div class="aviso1"> 
-            <img src="arquivos/icones/cover.png" width="100px">
-            <h3>atualizações </h3>
-            <div class="aviso2">
 
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide">DASHBOARD online</div>
-                      <div class="swiper-slide">Código fonte otimizado</div>
-                      <div class="swiper-slide">ícones SVG</div>
-                      <div class="swiper-slide">Autenticação pronta</div>
-                      <div class="swiper-slide">Refazendo INPUTS</div>
-                      <div class="swiper-slide">JavaScript otimizado</div>
-                      <div class="swiper-slide">Próxima atualização 16/03</div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                  </div>
 
-            </div>
+     <h1>Conteudo</h1>
 
-            <p><strong>análise  DASHBOARD Frond-end </strong></p>
-            <p>HTML / PLANOS / ENTRAR</p>
-            <p>Algumas páginas não estão carregando</p>
-           <br>
-            <h2>versão 1.0.3 / concluído 031% </h2>
 
-            <div class="linksU" onclick="dash()">DASHBOARD</div>
-            <div class="linksU" onclick="verSite()">SITE USUARIO</div>
-            <div class="linksU" onclick="chamaPro()">falar com o programador</div> <br>
 
-        </div>
-    </div>
 
-    <!--====== Footer ======-->
+     <!--====== Footer ======-->
 
-    <footer class="footer">
+     <footer class="footer">
 
         <div class="primeiro">
             <p>
-                <img src="arquivos/icones/image_2022-02-27_17-21-57.png" width="150px">
+                <img src="../arquivos/icones/image_2022-02-27_17-21-57.png" width="150px">
             </p>
 
             <p>
@@ -204,17 +217,17 @@
             </p>
 
             <div class="grupo1">
-                <img id="pago" src="arquivos/icones/Rectangle 24.png" alt="">
+                <img id="pago" src="../arquivos/icones/Rectangle 24.png" alt="">
 
                 <p id="affst2">
                     Ajuda
                 </p>
 
             <p id="anima1"><strong>Fale conosco</strong><br>
-                <img src="arquivos/icones/email.jpg">
-                <img src="arquivos/icones/whastapp.jpg">
-                <img src="arquivos/icones/facebook.jpg">
-                <img src="arquivos/icones/insta.jpg">
+                <img src="../arquivos/icones/email.jpg">
+                <img src="../arquivos/icones/whastapp.jpg">
+                <img src="../arquivos/icones/facebook.jpg">
+                <img src="../arquivos/icones/insta.jpg">
             </p>
             </div>
         </div>
@@ -222,7 +235,7 @@
     </footer>
 
     <!--====== Footer ======-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="funcoes/inicio.js"></script>
+
+<script src="../funcoes/app.js"></script>
 </body>
 </html>
