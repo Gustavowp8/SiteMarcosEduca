@@ -5,31 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../arquivos/imagens/logomenor.png" type="image/x-icon">
-    <link rel="stylesheet" href="estiloplano/planos.css">
+    <link rel="stylesheet" href="plano/estiloplano.css">
     <title>Qlegis</title>
 </head>
 <body>
     
-    <header id="header" class="header">
-        <a href="../index.html"><img src="../arquivos/icones/logoQqustao.png" alt=""></a>
+    <header class="header" id="header">
 
-        <nav id="nav">
+        <a href="../index.html"><img id="logo" src="../arquivos/icones/logoQqustao.png" alt="logo"></a>
 
-            <button id="btn-mobile">Menu
-                <span id="hamburger"></span>
-            </button>
+        <nav id="nav" class="nav">
+
+            <button id="btn-mobile"><img src="../arquivos/icones/menu-aberto.png" width="20px"></button>
 
             <ul id="menu" class="menu">
-                <li><a href="#" onclick="aviso()">QUESTÕES</a></li>
-                <li><a href="#" onclick="aviso()">SIMULADOS</a></li>
-                <li><a href="#" onclick="aviso()">RESUMAPAS</a></li>
-                <li><a href="#" onclick="aviso()">GUIAS</a></li>
+                <li><a href="login.html">QUESTÕES</a></li>
+                <li><a href="login.html">SIMULADOS</a></li>
+                <li><a href="login.html">RESUMAPAS</a></li>
+                <li><a href="login.html">GUIAS</a></li>
                 <li><a href="planos.html">PLANOS</a></li>
-                <li><a href="#" onclick="aviso()">GRUPOS</a></li>
-                <li><a href="login.html" id="sant">ENTRAR</a></li>
-                <li><a href="#" id="gratis" onclick="aviso()">EXPERIMENTA GRÁTIS</a></li>
-            </ul>
+                <li><a href="login.html">GRUPOS</a></li>
 
+                <li><a href="login.html" id="entra">ENTRAR</a></li>
+                <li><a href="planos.html" id="gratis">EXPERIMENTE GRÁTIS</a></li>
+            </ul>
         </nav>
 
     </header>
@@ -38,24 +37,20 @@
 
         <div class="texto">
             <h4>
-                Com o Plano Ilimitado você tem acesso a todo 
+                Com o Plano Padrão você tem acesso a todo 
                 conteúdo do maior banco de questões de
-                enfermagem comentadas do país + os melhores 
-                simulados da área de enfermagem + questões
-                inéditas dos assuntos que não existem questões 
-                para treino ou são poucas as existentes + os 
-                resumapas que potencializam os seus estudos.
+                enfermagem comentadas do país.
             </h4>
         </div>
 
         <div class="san">
 
-               <div class="san1" id="mudaparaV">
+               <div class="san1">
                 <div class="san2">
                     <div class="circulo2" id="circulo2"></div> <h3><strong>PLANO PADRÃO</strong></h3>
                 </div>
 
-                <h2><strong>R$ 12,90 mês</strong></h2> <br>
+                <h2><strong>R$ 9,90 mês</strong></h2> <br>
 
                 <a id="assine" href="#" onclick="pagat()">ASSINE AGORA</a><br><br>
 
@@ -63,11 +58,11 @@
 
                <div class="sobre1">
                    <ul>
-                       <li><p>Acesso a toda a plataforma de questões</p></li>
+                       <li><p>Acesso a todas as questões de enfermagem</p></li>
                        <li><p>Gabaritos comentados por professores</p></li>
-                       <li><p>Simulados inéditos</p></li>
-                       <li><p>Questões inédita</p></li>
-                       <li><p>Questões inéditas Resumapas (Mapas mentais)</p></li>
+                       <li><p>Guia de estudos</p></li>
+                       <li><p>Desempenho Comunidade de estudos</p></li>
+                       <li><p>Grupos de estudos no Whatsaap</p></li>
                    </ul>
                </div>
 
@@ -98,7 +93,7 @@
 
         <div class="primeiro">
             <p>
-                <img src="../arquivos/imagens/image_2022-02-27_17-21-57.png" width="150px">
+                <img src="../arquivos/icones/image_2022-02-27_17-21-57.png" width="150px">
             </p>
 
             <p>
@@ -126,23 +121,23 @@
             </p>
 
             <div class="grupo1">
-                <img id="pago" src="../arquivos/imagens/Rectangle 24.png" alt="">
+                <img id="pago" src="../arquivos/icones/Rectangle 24.png" alt="">
 
                 <p id="affst2">
                     Ajuda
                 </p>
 
             <p id="anima1"><strong>Fale conosco</strong><br>
-                <img src="../arquivos/imagens/email.jpg">
-                <img src="../arquivos/imagens/whastapp.jpg">
-                <img src="../arquivos/imagens/facebook.jpg">
-                <img src="../arquivos/imagens/insta.jpg">
+                <img src="../arquivos/icones/email.jpg">
+                <img src="../arquivos/icones/whastapp.jpg">
+                <img src="../arquivos/icones/facebook.jpg">
+                <img src="../arquivos/icones/insta.jpg">
             </p>
             </div>
         </div>
 
     </footer>
 
-    <script src="../estilo/app.js"></script>
+    <script src="../funcao/app.js"></script>
 </body>
 </html>
