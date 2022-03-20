@@ -46,7 +46,7 @@ function verifiarLog(){
     } else if (senha != senhaUser) {
         alert('Senha errado!')
     } else{
-        alert('passou')
+        location='../001_logado/inicioLogado.html'
     }
 
 }

@@ -44,3 +44,7 @@ function irPag(){
         location='../00_planos/login.html'
     }
 }
+
+function pagamentos(){
+    menu.style.display='none'
+}

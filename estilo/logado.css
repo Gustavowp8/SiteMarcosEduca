@@ -272,6 +272,10 @@ cursor: pointer;
 
     /*====== MENU & HEADER ======*/
 
+    .header{
+        align-items: center;
+    }
+
     #ForaRespon{
         display: none;
     }
@@ -279,8 +283,24 @@ cursor: pointer;
         display: none;
     }
     .action21{
+        display: block;
+        width: 20px;
+    }
+
+    .action21 img{
+        width: 25px;
+        height: 25px;
+        margin-left: -10px;
+    }
+
+    #SetaMenu{
         display: none;
     }
+
+    #userNome{
+        display: none;
+    }
+    
     .menuP{
         display: block;
         position: absolute;
