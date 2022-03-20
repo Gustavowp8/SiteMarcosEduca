@@ -802,6 +802,7 @@ input[type="file"]{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     margin: 10px;
+    cursor: pointer;
 }
 
 .cad p{
