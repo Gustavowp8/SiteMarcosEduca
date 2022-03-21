@@ -196,6 +196,10 @@ ul{
 
 /*===== Conteudo do site=======*/
 
+.nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
 /*===== Conteudo do site=======*/
 
 .manut img{
@@ -205,6 +209,12 @@ ul{
     max-width: 500px;
     margin: auto;
     text-align: center;
+}
+
+.campoSenha{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 200px;
 }
 
 /*=====FOOTER=======*/
@@ -292,6 +302,7 @@ cursor: pointer;
         height: 25px;
         margin-left: -10px;
     }
+
 
     #SetaMenu{
         display: none;
