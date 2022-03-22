@@ -202,19 +202,81 @@ ul{
 
 /*===== Conteudo do site=======*/
 
-.manut img{
-    width: 100%;
+.msgSenha{
+    max-width: 400px;
+    padding: 10px;
+    margin-left: 40px;
 }
-.manut{
-    max-width: 500px;
-    margin: auto;
-    text-align: center;
+.msgSenha p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: -10px;
+}
+
+.msgSenha h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
 }
 
 .campoSenha{
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
     margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.campoSenha h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3F4A52;
+    text-align: center;
+}
+
+.campoSenha2 p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #969696;
+    margin-bottom: -2px;
+}
+
+.campoSenha2 input{
+    border: none;
+    background: #E5E5E5;
+    padding: 10px;
+    width: 100%;
+    outline: 0;
+}
+
+.entradaCom{
+    display: flex;
+}
+
+.entradaCom p{
+    width: 150px;
+    margin-right: -2px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+    color: #8E72DC;
+}
+
+#comAlte{
+    background: #8E72DC;
+    border-radius: 4px;
+    color: #ffffff;
 }
 
 /*=====FOOTER=======*/
@@ -275,6 +337,113 @@ cursor: pointer;
 .EmBranco{
     padding-top: 300px;
     padding-bottom: 300px;
+}
+
+/*======= site ========*/
+
+.banner{
+    background: #C4C4C4;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#titulo{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 90px;
+    padding: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 30px;
+    background: #ffffff;
+    border: none;
+}
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.215);
+}
+.mudar p{
+    display: block;
+    color: #ffffff;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #8E72DC;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.sober1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.sober1 > div{
+    /*background: red;*/
+    flex: 1 0 150px;
+    margin: 14px;
+    text-align: center;
+}
+.sober1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: -10px;
+}
+.sober1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.tTituloM{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > div{
+    flex: 1 0 140px;
+    /*background: red;*/
+    margin: 20px;
+}
+
+.flex p{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.espa{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+/*====== Site ======*/
+
+.espa{
+    padding-top: 300px;
+    padding-bottom: 200px;
 }
 /*=====FOOTER=======*/
 
@@ -413,6 +582,22 @@ cursor: pointer;
     }
     .anima1{
         margin-left: 50px;
+    }
+
+    .msgSenha{
+        display: none;
+    }
+
+    .campoSenha{
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+    .campoSenha input{
+        margin-right: 10px;
     }
     /*======FOOTER====*/
 }
