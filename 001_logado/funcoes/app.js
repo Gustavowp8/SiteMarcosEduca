@@ -48,3 +48,16 @@ function irPag(){
 function pagamentos(){
     menu.style.display='none'
 }
+
+function voltar(){
+    window.history.back();
+}
+/*====== altera senha ======*/
+function alterarSenha(){
+alert('Esta função esta desativada')
+}
+/*====== altera senha ======*/
+
+function conta(){
+    location='minhaConta.html'
+}
