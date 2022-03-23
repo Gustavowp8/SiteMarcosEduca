@@ -27,7 +27,7 @@ function cadastro(){
         localStorage.email = email
         localStorage.senha = senhaPri
 
-        alert('Cadastrado com sucesso!')
+        alert('Cadastrado com sucesso!') 
     }
 }
 /*====== Dados de cadastro =======*/
