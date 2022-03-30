@@ -61,3 +61,14 @@ alert('Esta função esta desativada')
 function conta(){
     location='minhaConta.html'
 }
+
+function faleConosco(){
+    location='../060_faleConosco_grupos_sobre/faleConosco.html'
+}
+
+function chamaNoti(){
+    notificacao.style.display='block'
+}
+function fechaNoti(){
+    notificacao.style.display='none'
+}

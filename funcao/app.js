@@ -51,3 +51,7 @@ function verifiarLog(){
 
 }
 /*====== LOGIN ======*/ 
+
+function faleConosco(){
+    location='060_faleConosco_grupos_sobre/faleConosco.html'
+}
