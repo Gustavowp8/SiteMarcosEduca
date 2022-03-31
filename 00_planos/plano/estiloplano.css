@@ -178,6 +178,42 @@ line-height: 19px;
     padding-bottom: 200px;
 }
 
+/*====== popup =======*/
+
+#btnEntrar{
+    background: #8E72DC;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#btnEntrar:hover{
+    background: #594198;
+}
+
+.avisoEntra{
+    display: block;
+    background: #000000df;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.avisoEntra2{
+    background: white;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20%;
+}
+
 /*=====FOOTER=======*/
 
 .footer{
