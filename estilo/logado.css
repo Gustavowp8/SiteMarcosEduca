@@ -543,6 +543,58 @@ input[type="file"]{
     margin-right: 5px;
     cursor: pointer;
 }
+
+/*==========================*/
+.filtros{
+    background: #9696962c;
+    margin-bottom: 20px;
+}
+.filtros2{
+    background: #C4C4C4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#marca{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.desempenho{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.163);
+    padding: 5px;
+}
+
+.desempenho2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.desempenho2 > div{
+    border: 1px solid rgba(0, 0, 0, 0.231);
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+.desempenho2 p{
+    margin-bottom: -10px;
+}
+
+.dadosDoCliente img{
+    width: 100px;
+}
+
+.dadosDoCliente{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
 /*=====FOOTER=======*/
 
 .footer{

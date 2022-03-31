@@ -239,7 +239,7 @@ cursor: pointer;
 }
 
 .notificacao{
-    display: block;
+    display: none;
     background: rgba(0, 0, 0, 0.917);
     position: fixed;
     top: 0;
