@@ -66,7 +66,7 @@ function irDuvidasA(){
     location='../duvidas.html'
 }
 
-function irPlnaos(){
+function irPlnaosA(){
     location='planos.html'
 }
 
