@@ -34,6 +34,10 @@ function faleConosco(){
     location='faleConosco.html'
 }
 
+function irLogin(){
+    location='00_planos/login.html'
+}
+
 function btnEnvia(){
     alert('Mensagem enviada')
 }
