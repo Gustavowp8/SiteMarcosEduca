@@ -23,7 +23,7 @@ function irDuvidas(){
 }
 
 function irPlnaos(){
-    location='planos.html'
+    location='00_planos/planos.html'
 }
 
 function irAjuda(){
@@ -46,8 +46,34 @@ function fechaAvisoDeLogin(){
     avisoEntra.style.display='none'
 }
 
-
-
 function avisoLink(){
     alert('Sem link')
+}
+
+/*====== link dentro da pagina ======*/
+function irSobreA(){
+    location='../sobre.html'
+}
+function irAjudaA(){
+    location='../ajuda.html'
+}
+
+function irTermosA(){
+    location='../termos.html'
+}
+
+function irDuvidasA(){
+    location='../duvidas.html'
+}
+
+function irPlnaos(){
+    location='planos.html'
+}
+
+function irAjudaA(){
+    location='../ajuda.html'
+}
+
+function faleConoscoA(){
+    location='../faleConosco.html'
 }
