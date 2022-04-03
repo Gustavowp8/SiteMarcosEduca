@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+    width: 120px;
+    height: 37px;
+}
+
+.header{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #8E72DC;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.opcs img{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.opcs img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.opcs{
+    display: flex;
+    align-items: center;
+}
+
+.perfilUser{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.opcsUser{
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    top: 8%;
+    width: 200px;
+    right: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.244);
+}
+.opcsUser p{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.opcsUser p:hover{
+    background: #3f4a5238;
+}
+
+.SairUserPerfil{
+    border-top: 1px solid rgba(0, 0, 0, 0.382);
+}
+
+#planoUser{
+    display: block;
+    border: 1px solid #3F4A52;
+    padding: 8px;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#logoPerfilUser{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#setaBaixoOpc{
+    width: 15px;
+    height: 10px;
+}
+
+#MenuIcon{
+    display: none;
+}
+
+.notiAni:hover{
+    animation: shake 1s forwards;
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+}
+
+/*====== Notificações =======*/
+
+.notif{
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.notif2{
+    background: #FFFFFF;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    color: #3F4A52;
+    padding: 5px;
+    overflow: auto;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.notifi3 h2{
+    text-align: center;
+    border-bottom: 1px solid #3F4A52;
+}
+
+.notifi3 p{
+    color: black;
+}
+.fechanotif{
+    margin-top: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fechanotif p{
+    background: #8E72DC;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 20px;
+}
+
+/*====== Notificações =======*/
+
+@media(max-width: 500px){
+    #planoUser{
+        display: none;
+    }
+    #ajuda{
+        display: none;
+    }
+    #MenuIcon{
+        display: block;
+        margin-left: 20px;
+    }
+    .perfilUser{
+        display: none;
+    }
+    .header{
+        padding: 5px;
+    }
+
+    .notif2{
+        background: #FFFFFF;
+        width: auto;
+        height: 300px;
+        border-radius: 5px;
+        margin: 10px;
+        margin-top: 50%;
+        color: #3F4A52;
+        padding: 5px;
+        overflow: auto;
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    }
+}

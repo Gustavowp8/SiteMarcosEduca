@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Qquestão</title>
+</head>
+<body>
+    
+    <header class="header" id="header">
+
+        <img id="logo" src="arquivos/icones/logoQqustao.png">
+
+        <div class="opcs">
+
+            <p id="planoUser">PLANO ATUAL: GRÁTIS</p>
+
+        <img onclick="temas()" src="arquivos/icones/temas.png">
+        <img onclick="ajuda()" id="ajuda" src="arquivos/icones/ajuda.png">
+        <img onclick="chamaNotifi()" class="notiAni" src="arquivos/icones/notificacao.png">
+
+        <div onclick="chamaOpcUser()" class="perfilUser">
+            <img id="logoPerfilUser" src="arquivos/icones/perfil.png">
+            <h4>Olá, Usuario</h4>
+            <img id="setaBaixoOpc" src="arquivos/icones/setaBaixo.png">
+
+            <div class="opcsUser" id="opcsUser">
+                <p>Minha conta</p>
+                <p>Meu desempenho</p>
+                <p>Meus pagamentos</p> <br>
+                    
+                    <div class="SairUserPerfil">
+                        <p onclick="irLogin()"><strong>Sair</strong></p>
+                    </div>
+            </div>
+
+
+        </div>
+        <img id="MenuIcon" onclick="ChamaMenu()" src="arquivos/icones/menu.png">
+        </div>
+        
+    </header>
+
+
+    <div class="notif" id="notif">
+        <div class="notif2">
+
+            <div class="notifi3">
+
+                <h2>Notificações </h2>
+
+                <p>Texto</p>
+                <p>Texto</p>
+                <p>Texto</p>
+                <p>Texto</p>
+                <p>Texto</p>
+                <p>Texto</p>
+                <p>Texto</p>
+
+            </div>
+            
+        </div>
+        <div onclick="fechaNotifi()" class="fechanotif"><p>FECHAR</p></div>
+    </div>
+
+
+    <script src="funcao/app.js"></script>
+</body>
+</html>
