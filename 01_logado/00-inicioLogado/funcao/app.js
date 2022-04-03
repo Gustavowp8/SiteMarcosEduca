@@ -1,3 +1,4 @@
+/*===== Grupo de links =======*/
 function temas(){
     alert('Indisponível')
 }
@@ -17,4 +18,16 @@ function chamaOpcUser(){
 function irLogin(){
     alert('Sem link')
     location='inicioLogado.html'
+}
+function chamaDis(){
+    maisOpcDis.style.display='block'
+}
+
+function fechaMenuMobile(){
+    menuMobile.style.display='none';
+}
+/*===== Grupo de links =======*/
+
+function chamaMenu(){
+    menuMobile.style.display='block'
 }
