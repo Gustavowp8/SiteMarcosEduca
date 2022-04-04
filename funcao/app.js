@@ -81,3 +81,19 @@ function irAjudaA(){
 function faleConoscoA(){
     location='../faleConosco.html'
 }
+
+/*====== Aceso temporario ======*/
+
+function verifiarLog(){
+    const email = document.getElementById('tMail').value
+    const senha = document.getElementById('tSenha').value
+
+    if (email != "admin"  || senha != "admin3636"){
+        alert('Acesso negado')
+    } else {
+        alert('Autorizado')
+        location='../01_logado/00-inicioLogado/logado.html'
+    }
+}
+
+/*====== Aceso temporario ======*/

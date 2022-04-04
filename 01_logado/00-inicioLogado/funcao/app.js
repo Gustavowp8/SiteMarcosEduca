@@ -26,8 +26,9 @@ function chamaDis(){
 function fechaMenuMobile(){
     menuMobile.style.display='none';
 }
-/*===== Grupo de links =======*/
 
 function chamaMenu(){
     menuMobile.style.display='block'
 }
+
+/*===== Grupo de links =======*/
