@@ -167,8 +167,6 @@ body{
     top: 0;
     margin-bottom: -10px;
     border-bottom: 1px solid #3f4a5250;
-    background: white;
-    z-index: 50;
 }
 
 ul{
@@ -228,110 +226,6 @@ ul{
 /*====== Conteudo ========*/
 
 
-.banner{
-    background: #C4C4C4;
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-#titulo{
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 90px;
-    padding: 10px;
-    padding-left: 140px;
-    padding-right: 140px;
-    border-radius: 30px;
-    background: #ffffff;
-    border: none;
-}
-.sobre{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.215);
-}
-.mudar p{
-    display: block;
-    color: #ffffff;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: #8E72DC;
-    border-radius: 2px;
-    cursor: pointer;
-}
-
-.sober1 {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.sober1 > div{
-    /*background: red;*/
-    flex: 1 0 150px;
-    margin: 14px;
-    text-align: center;
-}
-.sober1 h2{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    color: #000000;
-    margin-bottom: -10px;
-}
-.sober1 p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
-}
-
-.tTituloM{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    margin-top: 50px;
-}
-
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex > div{
-    flex: 1 0 140px;
-    /*background: red;*/
-    margin: 20px;
-}
-
-.flex p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-}
-
-.espa{
-    padding-top: 200px;
-    padding-bottom: 150px;
-}
-
-/*====== Site ======*/
-
-.espa{
-    padding-top: 300px;
-    padding-bottom: 200px;
-}
 
 /*====== Conteudo ========*/
 
