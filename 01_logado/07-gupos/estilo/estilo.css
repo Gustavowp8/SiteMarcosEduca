@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
@@ -228,15 +228,72 @@ ul{
 /*====== Conteudo ========*/
 
 .local{
+    margin: 10px;
     margin-top: 10px;
-    max-width: 400px;
+    width: auto;
     margin-left: 20px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .local p{
     margin-bottom: -1px;
 }
 
-/*====== Conteudo ========*/
+.busca{
+    width: 500px;
+    margin-top: 50px;
+   
+}
+
+.flexGrup{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.grupo{
+    /*background: rebeccapurple;*/
+    flex: 1 0 200px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 5px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    border: 1px solid black;
+
+    background: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.gTotulos{
+    color: #3F4A52;
+}
+
+.gTotulos{
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.Wast{
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+
+}
+.Wast p{
+    background: #34AF23;
+    padding: 10px;
+}
+#telegram p{
+    background: #0088CC;
+}
+
+/*=== Conteudo ========*/
 
 /*=====FOOTER=======*/
 
