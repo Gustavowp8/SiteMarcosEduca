@@ -248,7 +248,7 @@ ul{
 }
 
 .flexGrup{
-    max-width: 900px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
