@@ -58,9 +58,10 @@ ul{
 #gratis{
     background: #8E72DC;
     color: #ffffff;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 2px;
+    /*font-size: 5pt;*/
 }
 
 #gratis:hover{
@@ -182,10 +183,11 @@ line-height: 19px;
 
 .footer{
     background: #3F4A52;
-    padding: 20px;
+    padding: 10px;
     color: white;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
 }
 .footer > div{
     display: flex;
@@ -205,6 +207,10 @@ line-height: 19px;
     cursor: pointer;
 }
 
+.primeiro p:hover{
+    background: rgba(0, 0, 0, 0.122);
+}
+
 #affst{
     margin-right: 45px;
     color: rgba(255, 0, 0, 0);
@@ -216,7 +222,7 @@ line-height: 19px;
 }
 
 #anima1 img{
-width: 23px;
+width: 19px;
 
 transition: all 0.5s;
 cursor: pointer;
@@ -227,6 +233,7 @@ cursor: pointer;
 }
 .grupo1{
     display: flex;
+    text-align: center;
 }
 #pago{
     width: auto;
