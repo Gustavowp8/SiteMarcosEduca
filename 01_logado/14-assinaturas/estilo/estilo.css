@@ -1,0 +1,414 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+    width: 120px;
+    height: 37px;
+}
+
+.header{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #8E72DC;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#fotoUser{
+    width: 30px;
+    height: 30px;
+}
+
+#planoUser{
+    background: white;
+    color: #3F4A52;
+    margin-right: 10px;
+}
+
+.opcs img{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.opcs img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.opcs{
+    display: flex;
+    align-items: center;
+}
+
+.perfilUser{
+    display: flex;
+    margin-left: 20px;
+    
+    cursor: pointer;
+}
+
+.opcsUser{
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    top: 8%;
+    width: 200px;
+    right: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.244);
+}
+
+.SairUserPerfil{
+    border-top: 1px solid rgba(0, 0, 0, 0.382);
+}
+
+#logoPerfilUser{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#setaBaixoOpc{
+    width: 15px;
+    height: 10px;
+}
+
+#MenuIcon{
+    display: none;
+}
+
+.notiAni:hover{
+    animation: shake 1s forwards;
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+}
+
+/*====== Notificações =======*/
+
+.notif{
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.notif2{
+    background: #FFFFFF;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    color: #3F4A52;
+    padding: 5px;
+    overflow: auto;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.notifi3 h2{
+    text-align: center;
+    border-bottom: 1px solid #3F4A52;
+}
+
+.notifi3 p{
+    color: black;
+}
+.fechanotif{
+    margin-top: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fechanotif p{
+    background: #8E72DC;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 20px;
+}
+
+/*====== Menu ======*/
+
+.nav{
+    position: sticky;
+    top: 0;
+    margin-bottom: -10px;
+    border-bottom: 1px solid #3f4a5250;
+    background: white;
+    z-index: 50;
+}
+
+ul{
+    padding: 0px;
+}
+
+#linka{
+    color: black;
+    text-decoration: none;
+}
+#linka:hover{
+    background: #8E72DC;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    align-items: center;
+    
+}
+
+.menu a{
+    display: block;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.btn-mobile{
+    display: none;
+}
+
+.dropdown{
+    background: white;
+    color: black;
+}
+#dropdownMenuButton1{
+    background: white;
+    color: black;
+    border: none;
+}
+#dropdownMenuButton1:hover{
+    background: #8E72DC;
+    color: white;
+}
+
+#dropdownMenuButton2{
+    background: white;
+    color: #3F4A52;
+    font-weight: bold;
+    border: none;
+}
+
+/*====== Menu ======*/
+
+/*====== Conteudo ========*/
+
+.local{
+    margin-top: 10px;
+    max-width: 400px;
+    margin-left: 20px;
+}
+.local p{
+    margin-bottom: -1px;
+}
+
+.pags{
+    max-width: 1200px;
+    margin: auto;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 4px;
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.118));
+}
+
+.pags h2{
+    font-size: 20pt;
+}
+
+.pags p{
+    font-size: 15px;
+}
+
+/*====== Conteudo ========*/
+
+/*=====FOOTER=======*/
+
+.footer{
+    background: #3F4A52;
+    padding: 20px;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.primeiro{
+    margin-right: 40px;
+    margin-left: 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.primeiro p{
+    display: block;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+#affst{
+    margin-right: 45px;
+    color: rgba(255, 0, 0, 0);
+}
+
+#affst2{
+    margin-right: 45px;
+    color: rgba(255, 0, 0, 0);
+}
+
+#anima1 img{
+width: 23px;
+
+transition: all 0.5s;
+cursor: pointer;
+}
+#anima1 img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.grupo1{
+    display: flex;
+}
+#pago{
+    width: auto;
+    margin: auto;
+}
+
+.EmBranco{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+/*====== Notificações =======*/
+
+.remover{
+    padding-top: 400px;
+    padding-bottom: 300px;
+}
+
+@media(max-width: 500px){
+
+    /*====== Menu =======*/
+
+    #planoUser{
+        display: none;
+    }
+    #ajuda{
+        display: none;
+    }
+    .perfilUser{
+        display: none;
+    }
+    #btn-mobile{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        right: 0;
+        background: white;
+        height: 100vh;
+        z-index: 1000;
+    }
+
+    #nav.active #menu {
+        display: block;
+    } 
+
+    .menu a{
+        color: black;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.287);
+    }
+
+    /*====== Menu =======*/
+
+    .notif2{
+        background: #FFFFFF;
+        width: auto;
+        height: 300px;
+        border-radius: 5px;
+        margin: 10px;
+        margin-top: 50%;
+        color: #3F4A52;
+        padding: 5px;
+        overflow: auto;
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    }
+
+    /*======FOOTER====*/
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.primeiro{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.primeiro p{
+    padding: 5px;
+}
+
+#pago{
+    width: auto;
+    margin: auto;
+}
+.anima1{
+    margin-left: 50px;
+}
+
+#titulo{
+    display: none;
+}
+
+/*======FOOTER====*/
+
+}
+
