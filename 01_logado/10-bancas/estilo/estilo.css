@@ -229,13 +229,117 @@ ul{
 
 .local{
     margin-top: 10px;
-    max-width: 400px;
+    max-width: 1200px;
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .local p{
     margin-bottom: -1px;
 }
 
+#campobusca{
+    margin-top: 10px;
+}
+
+.bancasConteudos{
+    width: 1000px;
+    margin: auto;
+}
+
+.bancaTtitulo h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.bancaTtitulo p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.bancacome{
+    background: #AEDDFE;
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bancasopc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #F6F6F7;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 5px;
+}
+
+.bancasopc:hover{
+    border: 1px solid rgba(0, 0, 0, 0.252);
+}
+
+.bancacome h5{
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.bancacome p{
+    /*font-weight: 300;*/
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#outracor{
+    background: #FFCA28;
+}
+
+.bancasOut{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*background: red;*/
+}
+
+#outracorbancas{
+    background: #ffffff;
+}
+
+
+.conect{
+    display: none;
+    background: rgba(0, 0, 0, 0.389);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+.conect2{
+    background: #FFFFFF;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    width: 400px;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.conect2 > button{
+    background: #8E72DC;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+}
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/

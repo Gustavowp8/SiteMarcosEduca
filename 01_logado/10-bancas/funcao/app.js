@@ -31,4 +31,11 @@ function irLogin(){
 function chamaDis(){
     maisOpcDis.style.display='block'
 }
+
+function fechaConct(){
+    conect.style.display='none'
+}
+function chamaConct(){
+    conect.style.display='block'
+}
 /*===== Grupo de links =======*/
