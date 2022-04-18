@@ -32,7 +32,14 @@ function chamaDis(){
     maisOpcDis.style.display='block'
 }
 
-function faleConosco(){
-    location='../fale-conosco/faleConosco.html'
+function smsfale(){
+    const smsAssunto = document.getElementById('formGroupExampleInput').value
+    const smsMmsagem = document.getElementById('exampleFormControlTextarea1').value
+
+    if(smsAssunto == '' || smsMmsagem == '' ){
+        alert("Falta dados")
+    } else {
+        alert('Mensagem enviada')
+    }
 }
 /*===== Grupo de links =======*/

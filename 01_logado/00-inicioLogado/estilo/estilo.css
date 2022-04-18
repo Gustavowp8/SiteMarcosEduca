@@ -360,6 +360,7 @@ line-height: 19px;
     display: block;
     padding: .5rem;
     cursor: pointer;
+    font-size: 10pt;
 }
 
 #affst{
@@ -373,7 +374,7 @@ line-height: 19px;
 }
 
 #anima1 img{
-width: 23px;
+width: 20px;
 
 transition: all 0.5s;
 cursor: pointer;
@@ -381,6 +382,9 @@ cursor: pointer;
 #anima1 img:hover{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+}
+#anima1{
+    text-align: center;
 }
 .grupo1{
     display: flex;

@@ -166,7 +166,7 @@ body{
     position: sticky;
     top: 0;
     margin-bottom: -10px;
-    border-bottom: 1px solid #3f4a5250;
+    border-bottom: 1px solid #3f4a5200;
     background: white;
     z-index: 50;
 }
@@ -229,58 +229,25 @@ ul{
 
 .local{
     margin-top: 10px;
-    max-width: 400px;
+    max-width: 500px;
     margin-left: 20px;
 }
 .local p{
     margin-bottom: -1px;
 }
 
-.guiasOpc{
-    max-width: 1000px;
+.textoAssuno{
+    max-width: 800px;
+   /* background: red;*/
     margin: auto;
 }
 
-.guia01{
-    width: 200px;
-    border: 1px solid #C4C4C4;
-    text-align: center;
-
-    border: 0.5px solid #C4C4C4;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-}
-
-.guiaTtitulo{
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #C4C4C4;
-    /*justify-content: space-around;*/
-}
-.guiaTtitulo h4{
-    /*margin-left: 5px;*/
-    margin: auto;
-    font-size: 14px;
-}
-
-#guia-btn{
+#btn-envia{
     background: #8E72DC;
-    margin: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-    border: none;
+    border: 1px solid #8E72DC;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-
-.quadrado {
-    width: 35px;
-    height: 35px;
-    background: #C4C4C4;
-    margin: 5px;
-    /*position: absolute;*/
-  }
-
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
@@ -308,6 +275,7 @@ ul{
     display: block;
     padding: .5rem;
     cursor: pointer;
+    font-size: 10pt;
 }
 
 #affst{
@@ -321,7 +289,7 @@ ul{
 }
 
 #anima1 img{
-width: 23px;
+width: 20px;
 
 transition: all 0.5s;
 cursor: pointer;
@@ -434,7 +402,7 @@ cursor: pointer;
     display: none;
 }
 
-.guiasOpc{
+.textoAssuno{
     width: auto;
     margin: 10px;
 }

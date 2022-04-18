@@ -31,4 +31,8 @@ function irLogin(){
 function chamaDis(){
     maisOpcDis.style.display='block'
 }
+
+function guiacont(){
+    alert('Guia indisponivel')
+}
 /*===== Grupo de links =======*/
