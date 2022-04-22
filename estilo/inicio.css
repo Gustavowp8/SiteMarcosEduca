@@ -320,6 +320,23 @@ cursor: pointer;
 
 /*====== local avisos ======*/
 
+.avisoErro{
+    background: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+.aviso2Erro img{
+    width: 100%;
+}
+.aviso2Erro{
+    background: white;
+    max-width: 500px;
+    margin: auto;
+}
+
 /*====== popup =======*/
 .avisoEntra{
     display: none;
