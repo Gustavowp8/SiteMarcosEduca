@@ -11,7 +11,7 @@ body{
     width: 120px;
     height: 37px;
 }
-
+ 
 .header{
     background: #FFFFFF;
     display: flex;
@@ -240,6 +240,133 @@ ul{
     font-size: 12px;
 }
 
+.filtro{
+    width: 100%;
+    height: 107px;
+    /*background: #8E72DC;*/
+}
+
+.filtro1{
+    max-width: 1200px;
+    background: #F6F6F7;
+    height: 107px;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filtro1 > div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.filtro1 p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    /*background: wheat;*/
+    margin: 40px;
+}
+
+.filtro1 button{
+    width: 144px;
+    height: 40px;
+    background: #C4C4C4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin: 30px;
+    transition: all 0.5s;
+}
+
+.filtro1 button:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.desepenho{
+    width: 1140px;
+    margin: auto;
+    background: #F6F6F7;
+    padding: 10px;
+}
+
+.desepenho p{
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.desempenho1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desempenho1 > div{
+    background: #FFFFFF;;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    width: 190px;
+    height: 100px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.desempenho1 h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.desempenho1 p{
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#muda{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    cursor: pointer;
+}
+
+#caixaCima{
+    border-left: 1px solid black;
+}
+
+#acertos{
+    border-top: 8px solid #23BE87;
+}
+
+#errosCometidos{
+    border-top: 8px solid #F1173A;
+}
+
+#sErros{
+    color: #F1173A;
+}
+
+#grafico{
+    margin-top: -30px;
+    width: 160px;
+    height: 165px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    background: #F6F6F7;
+}
+
+#myChart{
+    width: 100px;
+}
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
@@ -391,6 +518,14 @@ cursor: pointer;
 
 #titulo{
     display: none;
+}
+
+.desempenho1{
+    margin-top: 20px;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*======FOOTER====*/

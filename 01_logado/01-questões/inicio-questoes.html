@@ -112,7 +112,7 @@
 
 <div class="local">
     <p>Início / Desempenho</p>
-    <h3>Desempenho</h3>
+    <h3>Desempenho</h3> <br> <br>
 </div>
 
 
@@ -120,7 +120,21 @@
 
     <div class="filtro1">
 
-        <p>Intervalo:</p>
+        <div>
+            <p>Intervalo: <strong id="muda">Últimos 7 dias <img src="arquivos/icones/setaBaixoQeus.png" width="10px"> </strong></p> 
+
+            <p>Visualizar por: <strong id="muda">Disciplina <img src="arquivos/icones/setaBaixoQeus.png" width="10px"> </strong></p>
+        </div>
+
+        <div id="caixaCima">
+
+            <p>Disciplina(s): <strong id="muda">Todas</strong> <img src="arquivos/icones/setaBaixoQeus.png" width="10px"> </p>
+
+            <p>Assunto(s): <strong id="muda">Todos</strong> <img src="arquivos/icones/setaBaixoQeus.png" width="10px"> </p>
+
+        </div>
+
+        <button>FILTRAR</button>
 
     </div>
 
@@ -128,7 +142,43 @@
 
     </div>
 
+</div> <br> <br> <br>
+
+
+<div class="desepenho">
+    <p>Desempenho geral</p>
+
+    <div class="desempenho1">
+
+        <div>
+            <p>Questões resolvidas</p>
+            <h2>100</h2>
+        </div>
+
+        <div>
+            <p>Total de disciplinas</p>
+            <h2>100</h2>
+        </div>
+
+        <div id="acertos">
+            <p>Acertos</p>
+            <h2>81</h2>
+        </div>
+
+        <div id="errosCometidos">
+            <p>Erros</p>
+            <h2 id="sErros">19</h2>
+        </div>
+
+        <div id="grafico">
+            <canvas id="myChart" class="line-chart">
+                <p>12,54</p>
+            </canvas>
+        </div>
+
+    </div>
 </div>
+
 
 <!--===== Conteudo ======-->
 
@@ -188,8 +238,18 @@
     </footer>
 
     <!--====== Footer ======-->
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="funcao/app.js"></script>
+    <script src="funcao/graficos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+    const myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+  
+    </script>
+
 </body>
 </html>
