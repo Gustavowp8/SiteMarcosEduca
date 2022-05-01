@@ -229,11 +229,101 @@ ul{
 
 .local{
     margin-top: 10px;
-    max-width: 400px;
-    margin-left: 20px;
+    max-width: 600px;
+    margin-left: 65px;
 }
+
+.local h3{
+    font-size: 26px;
+}
+
+.local h5{
+    font-size: 15px;
+    color: #000000;
+}
+
 .local p{
     margin-bottom: -1px;
+    font-size: 12px;
+}
+
+.regras{
+    max-width: 1000px;
+    margin-left: 62px;
+}
+.regras p{
+    font-size: 14px;
+}
+
+.flex{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex > div{
+    background: #FFFFFF;
+    width: 233px;
+    height: 335px;
+    margin: 10px;
+    text-align: center;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border: 0.5px solid #C4C4C4;
+}
+
+.flex > div h5{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.flex > div button{
+    margin-top: 15px;
+    width: 154px;
+    height: 38px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.flex > div button:hover{
+    width: 159px;
+    height: 45px;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#subTitulo{
+    border-bottom: 1px solid  #C4C4C4;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#pTitulo{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3F4A52;
+}
+
+#btnUm{
+    background: #FFA000;
+    color: #ffffff;
+}
+
+#btnDois{
+    background: #8E72DC;
+    color: #ffffff;
+}
+
+.paginas{
+    width: 190px;
+    margin: auto;
+    /*background: red;*/
 }
 
 /*====== Conteudo ========*/
@@ -263,6 +353,7 @@ ul{
     display: block;
     padding: .5rem;
     cursor: pointer;
+    font-size: 15px;
 }
 
 #affst{
@@ -276,7 +367,7 @@ ul{
 }
 
 #anima1 img{
-width: 23px;
+width: 20px;
 
 transition: all 0.5s;
 cursor: pointer;
@@ -301,8 +392,8 @@ cursor: pointer;
 /*====== Notificações =======*/
 
 .remover{
-    padding-top: 400px;
-    padding-bottom: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 @media(max-width: 500px){
@@ -387,6 +478,14 @@ cursor: pointer;
 
 #titulo{
     display: none;
+}
+
+.local{
+    margin: 20px;
+}
+
+.regras{
+    margin: 20px;
 }
 
 /*======FOOTER====*/

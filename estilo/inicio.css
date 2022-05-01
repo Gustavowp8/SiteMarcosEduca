@@ -276,7 +276,7 @@ cursor: pointer;
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
-    background: #b2b7bb2f;
+    /*background: #b2b7bb2f;*/
     margin-bottom: 200px;
 }
 
@@ -321,6 +321,7 @@ cursor: pointer;
 /*====== local avisos ======*/
 
 .avisoErro{
+    display: none;
     background: white;
     width: 100%;
     height: 100%;
