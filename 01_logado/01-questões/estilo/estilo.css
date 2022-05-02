@@ -520,12 +520,21 @@ cursor: pointer;
     display: none;
 }
 
+.desepenho{
+    width: 100%;
+}
+
 .desempenho1{
     margin-top: 20px;
     width: 200px;
-    height: 500px;
+    /*height: 500px;*/
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#grafico{
+    display: none;
 }
 
 /*======FOOTER====*/
