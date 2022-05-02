@@ -236,6 +236,79 @@ ul{
     margin-bottom: -1px;
 }
 
+
+.pastas{
+    max-width: 500px;
+    margin: 10px;
+    border: 1px solid #C4C4C4;
+}
+.pastas1 h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F4A52;
+    margin: 10px;
+}
+
+.cadernos{
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    
+}
+
+.cadernos:hover{
+    background: #EDF8FF;
+}
+
+.cadernos img{
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.cardTitulos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcCardernos{
+    display: flex;
+}
+
+.opcCardernos p{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#Renoe{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8E72DC;
+}
+
+#apagara{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FF0000;
+}
+
+#nDeCard{
+    color: #3F4A52;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    right: 0px;
+}
+
+.pastas1 h4{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    color: #3F4A52;
+}
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
@@ -387,6 +460,11 @@ cursor: pointer;
 
 #titulo{
     display: none;
+}
+
+.pastas{
+    width: auto;
+    margin: 20px;
 }
 
 /*======FOOTER====*/
