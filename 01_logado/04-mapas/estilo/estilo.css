@@ -229,11 +229,96 @@ ul{
 
 .local{
     margin-top: 10px;
-    max-width: 400px;
+    max-width: 100%;
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.local h3{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
 }
 .local p{
     margin-bottom: -1px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.opcsDapagia{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.opcDecast{
+    background: #F6F6F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: 65px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.opcDecast img{
+    margin-top: 1px;
+    width: 10px;
+    height: 20px;
+}
+
+#tTitulosQuest{
+    display: flex;
+}
+#tTitulosQuest h4{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#baixar{
+    background: #FFA000;
+    color: #ffffff;
+    width: 154px;
+    height: 38px;
+    border: none;
+}
+
+#baixar:hover{
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.164);
+}
+
+#onlineEst{
+    background: #8E72DC;
+    color: #ffffff;
+    width: 154px;
+    height: 38px;
+    border: none;
+}
+
+#onlineEst:hover{
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.164);
+}
+
+#fBusca{
+    align-items: center;
+    max-width: 459px;
+}
+
+#Dbuscar{
+    width: 400px;
+    margin: 10px;
+    padding: 2px;
+    background-image: url(../arquivos/icones/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid #C4C4C4;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*====== Conteudo ========*/
