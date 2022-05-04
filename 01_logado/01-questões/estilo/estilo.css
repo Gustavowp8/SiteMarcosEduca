@@ -357,6 +357,52 @@ ul{
     width: 460px;
     height: 530px;
     background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.quadrado{
+    width: 17px;
+    height: 17px;
+    background: #C4C4C4;
+    margin-right: 5px;
+}
+
+.filtor{
+    width: 460px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.filtroTxt{
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.filtroTxt P{
+    margin-right: 10px;
+}
+
+.filtor p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#btn-filtros{
+    width: 110px;
+    height: 35px;
+    background: #8E72DC;
+    border: 1px solid #8E72DC;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 /*====== Conteudo ========*/
