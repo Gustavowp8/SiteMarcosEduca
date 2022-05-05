@@ -452,9 +452,11 @@ ul{
 
 .contDisciplinas{
     max-width: 1200px;
-    border: 1px solid black;
+    border: 1px solid #E5E5E5;
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.106));
     margin: auto;
     margin-top: 50px;
+    padding: 10px;
 }
 
 .enunciados{
@@ -553,26 +555,39 @@ ul{
 
 .questoes2{
     display: flex;
-    
-    background: saddlebrown;
+    background: #F6F6F7;;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.278);
 }
 
 .redonto{
-    border: 1px solid black;
     width: 25px;
     height: 25px;
     text-align: center;
     align-items: center;
     border-radius: 100%;
     margin: 5px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
 }
 
 .opcsRedondo{
     display: flex;
-    background: red;
+    /*background: red;*/
     margin: auto;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#iconeRecorte{
+    margin-top: -5px;
+}
+
+#tesouraSelect{
+    opacity: 0;
+}
+#tesouraSelect:hover{
+    opacity:1; 
 }
 
 mark{
