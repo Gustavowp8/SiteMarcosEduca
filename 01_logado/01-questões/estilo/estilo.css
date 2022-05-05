@@ -405,6 +405,51 @@ ul{
     line-height: 18px;
 }
 
+.opcsCaderno{
+    display: flex;
+    justify-content: space-around;
+    background: #F1F3F5;
+    padding-bottom: 50px;
+}
+
+.opcsCaderno p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: -1px;
+}
+
+#dCaderno{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    width: 439.83px;
+    height: 32px;
+    margin-top: 5px;
+}
+
+#bntopcsCadDrop{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    color: black;
+    width: 439.83px;
+    height: 32px;
+    text-align: left;
+}
+
+#setaBaixoBtn{
+    margin-left: 60%;
+}
+
+.opcsCaderno button{
+    background: #8E72DC;
+    border: 1px solid #8E72DC;
+    width: 253.05px;
+    height: 35px;
+    color: #ffffff;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
