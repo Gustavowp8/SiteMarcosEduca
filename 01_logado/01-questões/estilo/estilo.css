@@ -541,6 +541,16 @@ ul{
     margin-left: 10px;
 }
 
+#enunciadoQuestao{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+    margin: 10px;
+}
+
 mark{
     color: #8E72DC;
 }
