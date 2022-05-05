@@ -551,9 +551,10 @@ ul{
     margin: 10px;
 }
 
-.questoes{
-    max-width: 700px;
+.questoes2{
     display: flex;
+    
+    background: saddlebrown;
 }
 
 .redonto{
@@ -568,6 +569,10 @@ ul{
 
 .opcsRedondo{
     display: flex;
+    background: red;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 mark{
