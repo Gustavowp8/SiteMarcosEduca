@@ -450,6 +450,41 @@ ul{
     border-radius: 2px;
 }
 
+.contDisciplinas{
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.enunciados{
+    display: flex;
+    padding: 10px;
+}
+
+.enunciados h4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.enunciados p{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+
+#acertos{
+    color: rgb(29, 170, 29);
+}
+
+#errosU{
+    color: red;
+}
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
