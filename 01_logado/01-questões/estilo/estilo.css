@@ -485,6 +485,66 @@ ul{
     color: red;
 }
 
+.opcsCabecario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.selectText{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.selectText > div{
+    margin: 5px;
+    border: solid 1px black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.selectText > div:hover{
+    background: #3f4a5248;
+}
+
+#tempoQuest{
+    color: #686F78;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.sobreDisciplina{
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.sobreDisciplina p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: -10px;
+}
+
+.subTitulos{
+    display: flex;
+    align-items: center;
+}
+
+.subTitulos p{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+    margin-left: 10px;
+}
+
+mark{
+    color: #8E72DC;
+}
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
