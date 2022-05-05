@@ -594,6 +594,31 @@ mark{
     color: #8E72DC;
 }
 
+.btnSquest{
+    margin-top: 15px;
+}
+
+#respostEnviar{
+    width: 154px;
+    height: 38px;
+    left: 169px;
+    background: #8E72DC;
+    color: #ffffff;
+    border: 1px solid #8E72DC;
+}
+
+#outBtnOps{
+    width: 38px;
+    height: 38px;
+    border: 1px solid #C4C4C4;
+    background: #ffffff;
+    transition: all 0.5s;
+}
+#outBtnOps:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.2);
+}
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
