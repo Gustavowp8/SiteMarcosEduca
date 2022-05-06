@@ -585,6 +585,11 @@ ul{
     border: 1px solid #C4C4C4;
 }
 
+.redonto:hover{
+    background: #8E72DC;
+    color: #ffffff;
+}
+
 .opcsRedondo{
     display: flex;
     /*background: red;*/
@@ -598,10 +603,11 @@ ul{
 }
 
 #tesouraSelect{
-    opacity: 0;
+    background: #ffffff;
 }
 #tesouraSelect:hover{
-    opacity:1; 
+    background: #ffffff;
+    border: 1px solid #8E72DC;
 }
 
 mark{
