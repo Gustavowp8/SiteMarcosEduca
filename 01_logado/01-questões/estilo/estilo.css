@@ -269,8 +269,8 @@ ul{
     display: none;
 }
 
-#filtroNav .active #filtroNav{
-    display: flex;
+#filtroNav.active{
+    display: block;
 }
 
 
