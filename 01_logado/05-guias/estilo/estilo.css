@@ -196,6 +196,9 @@ ul{
     display: block;
     padding: .5rem;
     border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .btn-mobile{
@@ -229,7 +232,7 @@ ul{
 
 .local{
     margin-top: 10px;
-    max-width: 400px;
+    max-width: 600px;
     margin-left: 20px;
 }
 .local p{
@@ -281,6 +284,49 @@ ul{
     /*position: absolute;*/
   }
 
+
+  .guiasopc{
+      max-width: 1300px;
+      margin: auto;
+      /*background: #8E72DC;*/
+  }
+
+  .guiasopc > div{
+    width: 1140px;
+    height: 65px;
+    background: #F6F6F7;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .guiasopc > div:hover{
+      border: 1px solid rgba(0, 0, 0, 0.195);
+  }
+
+  .guiasopc p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .guiasopc button{
+    width: 154px;
+    height: 38px;
+    background: #8E72DC;
+    color: #ffffff;
+    border: 1px solid #8E72DC;
+  }
+
+  .guiasopc button:hover{
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+  }
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
@@ -308,6 +354,9 @@ ul{
     display: block;
     padding: .5rem;
     cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 #affst{
@@ -321,7 +370,7 @@ ul{
 }
 
 #anima1 img{
-width: 23px;
+width: 20px;
 
 transition: all 0.5s;
 cursor: pointer;

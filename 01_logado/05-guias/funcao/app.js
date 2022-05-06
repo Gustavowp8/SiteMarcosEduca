@@ -33,6 +33,14 @@ function chamaDis(){
 }
 
 function guiacont(){
-    alert('Guia indisponivel')
+    location='guia.prox.html'
+}
+
+function proxPagin(){
+    location='guiaCad.html'
+}
+
+function aviso(){
+    alert("Indisponivel")
 }
 /*===== Grupo de links =======*/
