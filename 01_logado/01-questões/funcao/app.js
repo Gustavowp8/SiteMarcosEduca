@@ -31,4 +31,18 @@ function irLogin(){
 function chamaDis(){
     maisOpcDis.style.display='block'
 }
+
+/*function Irfiltros(){
+    cPrincipal.style.display='flex'
+}*/
+
+const filtro = document.getElementById('abrirFiltros');
+function toggleFiltro(){
+    const filtroNav = document.getElementById('filtroNav')
+    filtroNav.classList.toggle('active');
+}
+filtro.addEventListener('click', toggleFiltro)
+
+
+
 /*===== Grupo de links =======*/

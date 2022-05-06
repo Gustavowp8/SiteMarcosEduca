@@ -265,6 +265,17 @@ ul{
     justify-content: space-around;
 }
 
+#filtroNav{
+    display: none;
+}
+
+#filtroNav .active #filtroNav{
+    display: flex;
+}
+
+
+
+
 .areaBusca{
     border: 1px solid rgba(0, 0, 0, 0);
     width: 160px;
@@ -556,8 +567,8 @@ ul{
 .questoes2{
     display: flex;
     background: #F6F6F7;;
-    margin-top: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.278);
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px px rgba(0, 0, 0, 0.069);
 }
 
 .redonto{
@@ -617,6 +628,26 @@ mark{
 #outBtnOps:hover{
     -webkit-transform: scale(0.5);
     transform: scale(1.2);
+}
+
+.ocsDeAula{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ocsDeAula img{
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.ocsDeAula button{
+    border: none;
+    background:  #e5e5e503;
+}
+
+.ocsDeAula button:hover{
+    background: #8e72dc5e;
 }
 
 /*====== Conteudo ========*/
