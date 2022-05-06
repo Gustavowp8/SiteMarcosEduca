@@ -583,6 +583,7 @@ ul{
     margin: 5px;
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
+    cursor: pointer;
 }
 
 .redonto:hover{
