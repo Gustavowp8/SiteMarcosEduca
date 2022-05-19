@@ -327,6 +327,81 @@ ul{
       box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
   }
 
+  .questoesSalvar{
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  .quetiesSalve2{
+    height: 65px;
+    margin: 10px;
+    padding: 10px;
+    background: #F6F6F7;
+    border: 1px solid #C4C4C4;
+  }
+
+  .quetiesSalve2 h3{
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .questorPara{
+    height: 65px;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .questorPara button{
+      background: #F24E1E;
+      color: #ffffff;
+      border: 1px solid #F24E1E;
+  }
+
+  .questorPara button:hover{
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.507);
+  }
+
+  .questorPara p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  #qquest{
+    color: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: -12px;
+  }
+
+  #qSobre{
+    color: #F24E1E;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  #salve-btn{
+    width: 154px;
+    height: 38px;
+  }
+
+  #btn-salves{
+    background: #8E72DC;
+    border: solid 1px #8E72DC;
+    width: 154px;
+    height: 38px;
+  }
+
 /*====== Conteudo ========*/
 
 /*=====FOOTER=======*/
